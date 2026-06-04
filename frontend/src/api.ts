@@ -4,7 +4,7 @@ import type {
   CompareResponse,
 } from './types'
 
-const BASE = (import.meta as any).env?.VITE_API_BASE ?? ''
+const BASE = ((import.meta as any).env?.VITE_API_BASE ?? '').replace(/\/$/, '')
 
 async function get(path: string, params: Record<string, any> = {}) {
   const q = new URLSearchParams(

@@ -115,7 +115,7 @@ export default function Complex() {
                   <Tooltip 
                     contentStyle={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12 }}
                     itemStyle={{ color: 'var(--accent-light)' }}
-                    formatter={(val: number) => [`${val.toLocaleString()} ₸`, 'Цена']}
+                    formatter={((val: number) => [`${val.toLocaleString()} ₸`, 'Цена']) as any}
                   />
                   <Line type="monotone" dataKey="price" stroke="var(--accent)" strokeWidth={3} dot={{ r: 4, fill: 'var(--bg-card)' }} activeDot={{ r: 6, fill: 'var(--accent-2)' }} />
                 </LineChart>

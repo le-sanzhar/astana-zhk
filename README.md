@@ -5,6 +5,16 @@
 
 ---
 
+## Screenshots
+
+<p float="left">
+  <img src="assets/screenshots/1_home.jpg" width="30%" />
+  <img src="assets/screenshots/2_compare.jpg" width="30%" />
+  <img src="assets/screenshots/3_detail.jpg" width="30%" />
+</p>
+
+---
+
 ## Features
 
 | Feature | Description |
@@ -225,6 +235,16 @@ MIT
 
 > Мобильное приложение и парсер для анализа рынка первичной недвижимости Астаны.  
 > Реальные данные с korter.kz, скоринг по 4 профилям покупателей, флип-калькулятор и мониторинг цен.
+
+---
+
+## Скриншоты
+
+<p float="left">
+  <img src="assets/screenshots/1_home.jpg" width="30%" />
+  <img src="assets/screenshots/2_compare.jpg" width="30%" />
+  <img src="assets/screenshots/3_detail.jpg" width="30%" />
+</p>
 
 ---
 

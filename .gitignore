@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Database WAL files (the .db itself is committed for Vercel deployment)
+scraper/astana_zhk.db-wal
+scraper/astana_zhk.db-shm
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Expo / React Native
+mobile/.expo/
+mobile/dist/
+mobile/dist-test/
+mobile/.env
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Misc
+qr.png

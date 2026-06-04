@@ -1,0 +1,972 @@
+{
+  "userStore": {
+    "user": {
+      "userId": null,
+      "name": null,
+      "email": null,
+      "sellerEntityType": null,
+      "avatar": null,
+      "createdAt": null,
+      "lastSeen": null,
+      "type": null,
+      "taxNumber": null,
+      "isLoggedIn": false,
+      "isNotificationsEnabled": null,
+      "isEmailVerified": null,
+      "filtersCount": 0,
+      "realtyCount": 0,
+      "realtyPublishedCount": 0,
+      "phones": null,
+      "languages": null,
+      "description": null,
+      "descriptions": null,
+      "agencyInvitation": null,
+      "balance": 0,
+      "bonusBalance": 0,
+      "dailyExpenses": null,
+      "hasPayments": false,
+      "avatarScore": null
+    },
+    "session": {},
+    "subscription": {
+      "subscribeBuildingIds": []
+    },
+    "buildingsPriceType": "total",
+    "apartmentsPriceType": "total",
+    "isFakeAuth": false,
+    "growthBookId": null,
+    "growthBookPayload": null,
+    "growthBookForcedFeatures": {},
+    "firstVisitDate": null
+  },
+  "favoritesStore": {
+    "buildings": [],
+    "layouts": [],
+    "realty": [],
+    "additionalBuildings": [],
+    "additionalOSMHouseIds": []
+  },
+  "navigationStore": {
+    "selectedGeoObjectId": 1,
+    "initialPagePath": "/nur-astana-kurylys",
+    "isSearchRedirectDisabled": false,
+    "links": {
+      "index": "/",
+      "mortgageListing": "/ипотека",
+      "map": "/новостройки-астаны-на-карте",
+      "guide": null,
+      "developersListing": "/застройщики-астаны",
+      "apartmentsListing": "/продажа-квартир-астана",
+      "apartmentListingRent": null,
+      "apartmentListingDailyRent": null,
+      "housesListing": "/продажа-домов-астана",
+      "housesListingRent": null,
+      "housesListingDailyRent": null,
+      "cottagesListing": "/коттеджные-городки-астаны",
+      "plotsListing": "/продажа-земельных-участков-астана",
+      "buildingsListing": "/новостройки-астаны",
+      "commercialListing": "/продажа-коммерческой-недвижимости-астана",
+      "commercialListingRent": null,
+      "parkingListing": null,
+      "parkingListingRent": null,
+      "realtorsListing": "/риелторы-астана",
+      "realtorsListingRent": null,
+      "warehouseListing": null,
+      "warehouseListingRent": null,
+      "officeListing": null,
+      "officeListingRent": null
+    },
+    "localizations": [],
+    "prevNavigationData": {
+      "pathname": "/nur-astana-kurylys",
+      "route": "developer/landing",
+      "params": {
+        "developer_id": "79"
+      },
+      "locale": "ru-RU"
+    },
+    "routeName": "developer/landing",
+    "headerHighlightedLinksSection": "building",
+    "routeParams": {
+      "developer_id": "79"
+    },
+    "isStaticPage": false,
+    "locale": "ru-RU",
+    "selectedGeoObject": {
+      "geoObjectId": 1,
+      "nominative": "Астана",
+      "preposition": "Астане",
+      "genitive": "Астаны",
+      "parentGeoObjectId": null
+    }
+  },
+  "uiStore": {
+    "bottomContentHeight": 0,
+    "isMobile": false,
+    "isTablet": false,
+    "isMobileViewport": false,
+    "isDeviceViewport": false,
+    "isLandscapeOrientation": true,
+    "globalFeedbackHeight": 0,
+    "isFooterDisabled": false,
+    "contentAboveHeaderHeight": 0,
+    "isNavigationPopupsDisabled": false,
+    "headerHeight": 68,
+    "os": null,
+    "isLandingAppsBannerVisible": false,
+    "isRealtorVacancyBannerVisible": false,
+    "isSearchEngine": false,
+    "isLayoutDisabled": false
+  },
+  "seoStore": {
+    "canonicalLink": "https://korter.kz/nur-astana-kurylys",
+    "isCanonicalPage": true,
+    "showManifest": true,
+    "page": null,
+    "h1": "NAK",
+    "title": "NAK: новостройки, цены, продажа квартир от застройщика",
+    "description": "Застройщик NAK в Казахстане: новостройки, жилые комплексы, готовые квартиры в ипотеку, в рассрочку, ➔ Актуальные цены, планировки от строительной компании NAK на Korter.kz",
+    "subheader": null,
+    "robotsMetaTag": {
+      "index": false,
+      "noIndex": false,
+      "noFollow": false,
+      "follow": false
+    },
+    "originalUrl": "/nur-astana-kurylys",
+    "pageImage": null,
+    "text": "<p>Компания ТОО Nur Astana Kurylys была основана в 2006 году. Основные направления деятельности – проведение строительных работ, а также текущий и капитальный ремонт различной степени сложности.</p><h3>Какое жилье реализует застройщик «Нур Астана Курылыс»?</h3><p>Первые годы работы компания специализировалась на строительстве объектов инфраструктуры и коммерческой недвижимости. Набравшись опыта, заработав нужные связи с поставщиками и получив доступ к качественной материальной и производственной базе, застройщик начал строительство жилых объектов.</p><p>Первая новостройка от «Нур Астана Курылыс» в Астане была возведена в 2010 году. С тех пор компания украсила город еще несколькими объектами, каждый из которых уникален и предлагает купить квартиры повышенной категории комфортности по приемлемой стоимости.</p><p>Подробнее узнать об условиях продажи недвижимости, оформлении рассрочки и ипотеки, а также актуальных акциях можно по телефону отдела продаж застройщика.</p><h3>Что отличает ТОО «NAK» от других компаний?</h3><p>Если посмотреть официальный сайт, где представлено много полезной информации о девелопере, можно увидеть, что у него есть несколько дочерних компаний. Это завод по производству керамического кирпича, предприятие, поставляющее бетон и пенобетон, а также транспортное подразделение и обслуживающая эксплуатационная фирма. Наличие столь мощной производственной базы выгодно отличает Nur Astana Kurylys от других застройщиков.</p><p>В качестве преимущества строительной организации стоит выделить сотрудничество с солидными партнерами, отзывы которых лишний раз подтверждают надежность и ответственность девелопера.</p><h3>В каких городах работает застройщик?</h3><p>Застройщик Nur Astana Kurylys имеет новостройки в г. Астана.</p><h3>Жилые комплексы какого класса строит застройщик?</h3><p>Застройщик строит дома класса комфорт, бизнес и премиум.</p>"
+  },
+  "currencyStore": {
+    "rate": 474.194,
+    "inverseRate": 0.002109,
+    "currency": "KZT",
+    "areaUnit": "m",
+    "landAreaUnit": "m"
+  },
+  "leadStore": {
+    "openedLeadForm": null,
+    "openedLeadPurchaseOfferId": null,
+    "openedLeadFormBuildingId": null,
+    "openedLeadFormAgent": null
+  },
+  "contactsStore": {
+    "buildingId": null,
+    "main": null,
+    "seller": null,
+    "developer": {
+      "developerId": 79,
+      "mainGeoObjectId": 1
+    },
+    "agentVariantIds": {},
+    "locale": "ru-RU"
+  },
+  "developerLandingStore": {
+    "developerId": 79,
+    "developer": {
+      "name": "NAK",
+      "logo": "https://storage.googleapis.com/bd-kz-01/developer_image/logo/982.png?cache=20251015",
+      "foundationYear": 2006,
+      "synonym": "NAK, Нур Астана Курылыс, Нұр Астана Құрылыс, НұрАстанаҚұрылыс",
+      "site": {
+        "url": "/redirect?category=click_building&action=developer_page_site&to=https%3A%2F%2Fnak.kz%2F&checksum=500b29f059bd727b3a4f69a06b2cb1c3",
+        "name": "nak.kz"
+      },
+      "isDeleted": false,
+      "geoObjects": [
+        {
+          "geoObjectId": 1,
+          "nominative": "Астана",
+          "preposition": "Астане",
+          "buildingIds": [
+            126,
+            478,
+            629,
+            661,
+            663,
+            664,
+            665,
+            666,
+            667,
+            668,
+            740,
+            1012,
+            1024,
+            1030,
+            1196,
+            1374,
+            1643,
+            1644,
+            1926,
+            1934,
+            2196,
+            2681,
+            2941,
+            2992,
+            3234,
+            3319,
+            3370,
+            3820,
+            4147,
+            4165,
+            4384
+          ],
+          "extremePoints": {
+            "minLat": 51.08403343,
+            "maxLat": 51.14378128,
+            "minLng": 71.37206978,
+            "maxLng": 71.52878316
+          },
+          "developerListingLink": "/застройщики-астаны",
+          "developerLandingGeoLink": null
+        }
+      ],
+      "minPrice": 34894800
+    },
+    "breadcrumbs": {
+      "listing": {
+        "link": "/застройщики-астаны",
+        "geoObjectGenitive": "Астаны"
+      }
+    },
+    "popularDevelopers": [
+      {
+        "buildingsCount": 5,
+        "name": "SDN Construction",
+        "link": "/sdn-construction"
+      },
+      {
+        "buildingsCount": 2,
+        "name": "KazBuild Development",
+        "link": "/kazbuild-development"
+      },
+      {
+        "buildingsCount": 3,
+        "name": "Ulytau Group",
+        "link": "/mwc"
+      },
+      {
+        "buildingsCount": 2,
+        "name": "ЭлитСтрой",
+        "link": "/элитстрой"
+      },
+      {
+        "buildingsCount": 5,
+        "name": "Beles",
+        "link": "/beles-holding"
+      },
+      {
+        "buildingsCount": 2,
+        "name": "Global Expert Development Group",
+        "link": "/global-expert-development-group"
+      },
+      {
+        "buildingsCount": 2,
+        "name": "Family Group Construction",
+        "link": "/family-group-construction"
+      },
+      {
+        "buildingsCount": 2,
+        "name": "Корпорация ВЕК",
+        "link": "/корпорация-век"
+      }
+    ],
+    "contacts": [
+      {
+        "contactId": 1103,
+        "name": "Отдел продаж NAK",
+        "address": "улица Арай 29А, БЦ NAK",
+        "workingHours": "Пн-Пт: с 9.00 до 19.00, Сб-Вс: с 10.00 до 18.00",
+        "phone": "+7 (717) 299-95-00",
+        "hasEmail": true,
+        "isMain": true,
+        "geoObjectId": 1
+      }
+    ],
+    "ongoingBuildings": {
+      "buildings": [
+        {
+          "buildingId": 629,
+          "url": "/жк-аулет-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/17800.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/17800.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Әулет",
+          "address": "просп. Ракымжан Кошкарбаев, 48",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Алматинский",
+          "minPriceSqm": 390000,
+          "minPrice": 36406500,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [
+            {
+              "name": "fondWarranty",
+              "text": "Гарантировано АО «КЖК»"
+            }
+          ],
+          "featureLabels": [
+            {
+              "name": "3d",
+              "link": "/жк-аулет-астана/планировки"
+            },
+            {
+              "name": "documents"
+            },
+            {
+              "name": "aero"
+            },
+            {
+              "name": "fondWarranty"
+            }
+          ],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.12783034,
+            "lng": 71.49575651
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2023,
+          "endQuarter": 1
+        },
+        {
+          "buildingId": 1030,
+          "url": "/жк-asylym-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/18145.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/18145.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Asylym",
+          "address": "просп. Мангилик Ел, 30",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": 515000,
+          "minPrice": 49017700,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [
+            {
+              "name": "aero"
+            }
+          ],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.10696432,
+            "lng": 71.43251538
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2023,
+          "endQuarter": 1
+        },
+        {
+          "buildingId": 478,
+          "url": "/жк-hazar-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/38839.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/38839.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Hazar",
+          "address": "просп. Мангилик Ел, 62",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.08491916,
+            "lng": 71.42482169
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2023,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 2941,
+          "url": "/жк-asylym-park-1-нур-султан-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/29277.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/29277.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Asylym Park 1",
+          "address": "ул. Алихан Бокейхан, 18/1",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": 498000,
+          "minPrice": 24640590,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.10498717,
+            "lng": 71.4333576
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2024,
+          "endQuarter": 1
+        },
+        {
+          "buildingId": 2681,
+          "url": "/жк-tomiris-towers-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/23617.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/23617.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Tomiris Towers",
+          "address": "просп. Ракымжан Кошкарбаев, 36",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Алматинский",
+          "minPriceSqm": 390000,
+          "minPrice": 15627300,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.12532803,
+            "lng": 71.48611665
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2023,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 740,
+          "url": "/жк-royal-expo-apartments-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/40060.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/40060.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Royal Expo Apartments",
+          "address": "просп. Улы Дала, 29",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.09518103,
+            "lng": 71.41488791
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2023,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 3370,
+          "url": "/жк-eco-park-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/32519.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/32519.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Eco Park",
+          "address": "ул. Сыганак, 28",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Нура",
+          "minPriceSqm": 708100,
+          "minPrice": 32671734,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.12757229,
+            "lng": 71.3917807
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2024,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 2992,
+          "url": "/жк-asylym-park-2-нур-султан-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/26847.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/26847.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Asylym Park 2",
+          "address": "просп. Мангилик Ел, 36/1",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "available",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.1066915,
+            "lng": 71.43422663
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2023,
+          "endQuarter": 2
+        }
+      ],
+      "count": 14
+    },
+    "completeBuildings": {
+      "buildings": [
+        {
+          "buildingId": 3319,
+          "url": "/жк-asylym-prime-нур-султан-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/31623.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/31623.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Asylym Prime",
+          "address": "ул. Алихан Бокейхан, 16",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.10724065,
+            "lng": 71.43503767
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": true,
+          "endYear": 2023,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 661,
+          "url": "/жк-арай-3-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/39553.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/39553.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Арай 3",
+          "address": "ул. Ермекова, 1/1а",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.13699354,
+            "lng": 71.43092819
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": false,
+          "endYear": 2016,
+          "endQuarter": 2
+        },
+        {
+          "buildingId": 663,
+          "url": "/жк-в-пос-комсомольский-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/3486.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/3486.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Комсомольский NAK",
+          "address": "ул. Кыз Жибек, 30а",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Нура",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.14059123,
+            "lng": 71.39253979
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": false,
+          "endYear": null,
+          "endQuarter": null
+        },
+        {
+          "buildingId": 664,
+          "url": "/жк-арай-1-арай-2-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/3490.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/3490.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Арай 1 и Арай 2",
+          "address": "ул. Жусан, 9, 11",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.13657763,
+            "lng": 71.43342585
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": false,
+          "endYear": 2014,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 665,
+          "url": "/жк-нурлы-уя-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/39112.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/39112.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Нурлы Уя",
+          "address": "ул. Айтеке би, 16",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Нура",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.14247541,
+            "lng": 71.38316341
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": false,
+          "endYear": 2015,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 666,
+          "url": "/жк-ак-булак-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/5666.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/5666.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Ак булак",
+          "address": "ул. Романтиков, 27",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Алматинский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.14378128,
+            "lng": 71.45547667
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": false,
+          "endYear": null,
+          "endQuarter": null
+        },
+        {
+          "buildingId": 667,
+          "url": "/жк-зам-зам-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/5656.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/5656.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Zam-Zam",
+          "address": "ул. Абикен Бектуров, 7",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Нура",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.12136975,
+            "lng": 71.39728284
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": false,
+          "endYear": 2018,
+          "endQuarter": 4
+        },
+        {
+          "buildingId": 668,
+          "url": "/жк-на-ул-орынбор-астана",
+          "images": [
+            {
+              "mediaSrc": {
+                "default": {
+                  "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/39555.jpg",
+                  "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/39555.jpg"
+                }
+              }
+            }
+          ],
+          "name": "ЖК Орынбор",
+          "address": "просп. Мангилик Ел, 29",
+          "mainGeoObject": {
+            "id": 1,
+            "name": "Астана"
+          },
+          "subLocalityNominative": "Есильский",
+          "minPriceSqm": null,
+          "minPrice": null,
+          "minPriceSqmByLayouts": null,
+          "status": "basic",
+          "salesStatus": "all_sold",
+          "developers": [],
+          "labels": [],
+          "featureLabels": [],
+          "hasTaxInclusion": false,
+          "location": {
+            "lat": 51.10794568,
+            "lng": 71.43053702
+          },
+          "constructionStatus": "ready",
+          "phone": null,
+          "isDeveloperPhoneShown": false,
+          "endYear": 2015,
+          "endQuarter": 4
+        }
+      ],
+      "count": 17
+    },
+    "selectedGeoObjectId": "all",
+    "isMapOpened": false,
+    "mapStore": {
+      "selectedBuildingId": null,
+      "selectedOSMHouseId": null,
+      "is3dMode": false,
+      "building3dModel": null,
+      "isSearchByMapMovingEnabled": false,
+      "selectedObjectId": null,
+      "geoObjectCoordinates": [],
+      "isMapboxSupported": false,
+      "isMapboxSupportChecked": false,
+      "realtySection": "sale",
+      "hoveredCardFeature": null
+    }
+  },
+  "mapStore": {
+    "selectedBuildingId": null,
+    "selectedOSMHouseId": null,
+    "is3dMode": false,
+    "building3dModel": null,
+    "isSearchByMapMovingEnabled": false,
+    "selectedObjectId": null,
+    "geoObjectCoordinates": [],
+    "isMapboxSupported": false,
+    "isMapboxSupportChecked": false,
+    "realtySection": "sale",
+    "hoveredCardFeature": null
+  }
+}

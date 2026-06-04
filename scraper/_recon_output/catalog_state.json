@@ -1,0 +1,3354 @@
+{
+  "userStore": {
+    "user": {
+      "userId": null,
+      "name": null,
+      "email": null,
+      "sellerEntityType": null,
+      "avatar": null,
+      "createdAt": null,
+      "lastSeen": null,
+      "type": null,
+      "taxNumber": null,
+      "isLoggedIn": false,
+      "isNotificationsEnabled": null,
+      "isEmailVerified": null,
+      "filtersCount": 0,
+      "realtyCount": 0,
+      "realtyPublishedCount": 0,
+      "phones": null,
+      "languages": null,
+      "description": null,
+      "descriptions": null,
+      "agencyInvitation": null,
+      "balance": 0,
+      "bonusBalance": 0,
+      "dailyExpenses": null,
+      "hasPayments": false,
+      "avatarScore": null
+    },
+    "session": {},
+    "subscription": {
+      "subscribeBuildingIds": []
+    },
+    "buildingsPriceType": "total",
+    "apartmentsPriceType": "total",
+    "isFakeAuth": false,
+    "growthBookId": null,
+    "growthBookPayload": null,
+    "growthBookForcedFeatures": {},
+    "firstVisitDate": null
+  },
+  "favoritesStore": {
+    "buildings": [],
+    "layouts": [],
+    "realty": [],
+    "additionalBuildings": [],
+    "additionalOSMHouseIds": []
+  },
+  "navigationStore": {
+    "selectedGeoObjectId": 1,
+    "initialPagePath": "/новостройки-астаны",
+    "isSearchRedirectDisabled": true,
+    "links": {
+      "index": "/",
+      "mortgageListing": "/ипотека",
+      "map": "/новостройки-астаны-на-карте",
+      "guide": null,
+      "developersListing": "/застройщики-астаны",
+      "apartmentsListing": "/продажа-квартир-астана",
+      "apartmentListingRent": null,
+      "apartmentListingDailyRent": null,
+      "housesListing": "/продажа-домов-астана",
+      "housesListingRent": null,
+      "housesListingDailyRent": null,
+      "cottagesListing": "/коттеджные-городки-астаны",
+      "plotsListing": "/продажа-земельных-участков-астана",
+      "buildingsListing": "/новостройки-астаны",
+      "commercialListing": "/продажа-коммерческой-недвижимости-астана",
+      "commercialListingRent": null,
+      "parkingListing": null,
+      "parkingListingRent": null,
+      "realtorsListing": "/риелторы-астана",
+      "realtorsListingRent": null,
+      "warehouseListing": null,
+      "warehouseListingRent": null,
+      "officeListing": null,
+      "officeListingRent": null
+    },
+    "localizations": [],
+    "prevNavigationData": {
+      "pathname": "/новостройки-астаны",
+      "route": "building/geo",
+      "params": {
+        "geo_object_id": "1"
+      },
+      "locale": "ru-RU"
+    },
+    "routeName": "building/geo",
+    "headerHighlightedLinksSection": "building",
+    "routeParams": {
+      "geo_object_id": "1"
+    },
+    "isStaticPage": false,
+    "locale": "ru-RU",
+    "selectedGeoObject": {
+      "geoObjectId": 1,
+      "nominative": "Астана",
+      "preposition": "Астане",
+      "genitive": "Астаны",
+      "parentGeoObjectId": null
+    }
+  },
+  "uiStore": {
+    "bottomContentHeight": 0,
+    "isMobile": false,
+    "isTablet": false,
+    "isMobileViewport": false,
+    "isDeviceViewport": false,
+    "isLandscapeOrientation": true,
+    "globalFeedbackHeight": 0,
+    "isFooterDisabled": false,
+    "contentAboveHeaderHeight": 0,
+    "isNavigationPopupsDisabled": false,
+    "headerHeight": 68,
+    "os": null,
+    "isLandingAppsBannerVisible": false,
+    "isRealtorVacancyBannerVisible": false,
+    "isSearchEngine": false,
+    "isLayoutDisabled": false
+  },
+  "seoStore": {
+    "canonicalLink": "https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B",
+    "isCanonicalPage": true,
+    "showManifest": true,
+    "page": null,
+    "h1": "Новостройки Астаны",
+    "title": "Новостройки Астаны — Список всех ЖК на Korter",
+    "description": "Новостройки и ЖК Астаны. Каталог новостроек: планировки, цены, описание, расположение на карте, ход строительства и аэро-облеты жилых комплексов. Выбирайте лучшие ЖК Астаны на Korter.",
+    "subheader": null,
+    "robotsMetaTag": {
+      "index": false,
+      "noIndex": false,
+      "noFollow": false,
+      "follow": false
+    },
+    "originalUrl": "/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B",
+    "pageImage": null,
+    "text": "<h2>Новостройки в Астане: изучаем местный рынок</h2><p>Столица Казахстана активно растет и развивается, предлагая множество карьерных возможностей для местного населения, особенно в области государственного управления. Одним из преимуществ над Алматы, с которым постоянно сравнивают столицу, является более чистый воздух. Также стоит отметить, что цены на квартиры в новостройках Астаны в среднем ниже, чем в «южной столице».</p><h3>В каких районах Астаны выбирать новостройки? ТОП-5 районов Астаны</h3><p>Астана включает в себя 4 крупных района: Алматинский, Байконурский, Есильский и Сарыаркинский. Жилье на левом берегу, то есть в Есильском районе, застроенном современными зданиями, дороже, а вот более бюджетные варианты стоит искать на правом берегу – в исторической части города.&nbsp;</p><ol><li><strong>Район ЕХРО</strong>. Новый район города, расположившийся на левом берегу, привлекает покупателей низким уровнем преступности и современной архитектурой. Тем не менее, цены на недвижимость довольно высокие по сравнению с остальной частью города.</li><li><strong>Бульвар Нурлы Жол</strong>. Этот элитный район, расположившийся на левом берегу столицы, предлагает множество квартир премиум-класса, спроектированных известными архитекторами. Район отличается развитой инфраструктурой и яркими достопримечательностями.</li><li><strong>Проспект Туран</strong>. Данный район стал популярен среди застройщиков, которые все чаще располагают здесь новые ЖК. На его территории находятся несколько крупных ТРЦ, включая «Хан Шатыр», «Сарыарка», «Keruen City» и «Думан», а также научные и культурные центры.</li><li><strong>Ботанический сад</strong>. Несмотря на то, что это центр города, жители района могут насладиться уединением и тишиной ботанического сада. При этом здесь также довольно хорошо развита инфраструктура. Однако цены на жилье все же выше среднего.</li><li><strong>Район Дворца мира и согласия</strong>. Расположившись на правом берегу столицы в Алматинском районе, эта территория отличается довольно низким уровнем преступности. Окруженный достопримечательностями, район предлагает самую дорогую недвижимость на правом берегу.</li></ol><h3>На что смотреть при выборе ЖК в Астане? Чеклист</h3><ul><li>Инфраструктура. Важно, чтобы в округе имелись необходимые объекты инфраструктуры, такие как магазины, супермаркеты, аптеки, школы, детские сады и спортивные залы.</li><li>Транспортная доступность. Стоит учитывать то, как вы будете добираться до работы и других мест частого пользования, как часто бывают пробки и какие виды общественного транспорта доступны.</li><li>Безопасность. Необходимо проверить, какие уровни защиты присутствуют в доме – есть ли охрана, консьерж, камеры наблюдения, домофоны, датчики дыма и т.д.</li><li>Озеленение. Живя в большом городе, крайне важно, чтобы рядом с домом был парк или хотя бы небольшой сквер, где можно отдохнуть от городской суеты.</li><li>Парковка. Жилые комплексы Астаны обычно оборудованы парковкой для жильцов, так как собственная машина является неотъемлемым атрибутом комфортной жизни в столице. Необходимо узнать, насколько мест она рассчитана, какова стоимость и есть ли отдельный паркинг для гостей.</li><li>Экология. Рядом с домом не должно быть промышленных предприятий и других крупных источников загрязнения окружающей среды.</li><li>Двор. Стоит проверить двор на наличие детской площадки, зоны для выгула собак и места для отдыха.</li><li>Мусор. Крайне важно учитывать то, как в ЖК обходятся с мусором: есть ли мусоропровод, контейнеры для раздельного сбора или современные заглубленные баки.</li><li>Лифт. Если здание средней или высокой этажности, внутри должен быть лифт. Однако помимо обычного пассажирского стоит проверить дом на наличие грузового лифта.</li><li>Стройматериалы. Учитывая особенности климата, важно знать, какие стройматериалы используются в ходе строительства.</li></ul><h3>Способы покупки жилья в новостройках Астаны&nbsp;</h3><p>Купить квартиру в новостройке Астаны можно с помощью:&nbsp;</p><ul><li>единовременного платежа;</li><li>государственной ипотечной программы;</li><li>ипотеки в банке;</li><li>рассрочки от застройщика;</li><li>части пенсионных накоплений.</li></ul><p><strong>Для покупки квартиры в ЖК Астаны можно воспользоваться одной из следующих программ доступного жилья:</strong></p><ul><li><a href=\"https://korter.kz/ипотека-7-20-25\"><strong>«7-20-25»</strong></a> – самая популярная программа, в рамках которой выдается заем под 7% годовых на срок до 25 лет с минимальным первоначальным взносом в размере 20% от суммы займа.</li><li><strong>«Жас отбасы»</strong> – программа для пар, состоящих в браке не более 5 лет, которая позволяет получить заем на срок до 9 лет под 6% годовых.</li><li><strong>«Нурлы жер»</strong> – государственная программа, в рамках которой предлагаются самые низкие цены на квартиры в новостройках. Процентная ставка составит 5%, максимальный срок – 15 лет, а минимальный первоначальный взнос – 20% от суммы займа.</li><li><strong>«Шаңырақ»</strong> – это ипотечная программа, направленная на помощь очередникам акиматов в получении жилья в новых ЖК, которые либо уже были сданы в эксплуатацию, либо получили гарантию АО «КЖК». Ставка составляет 5%, максимальный срок – 20 лет, а первоначальный взнос – от 10%.</li></ul><h3>Как найти и выбрать лучшие ЖК в Астане?</h3><p>Чтобы найти лучшие ЖК Астаны, необходимо учитывать множество параметров, такие как местоположение, цена, класс жилья, тип отделки, технология строительства и паркинг. Фильтры Korter позволяют сразу отсеять неподходящие новостройки Астаны, основываясь на этих и других характеристиках. Более того, страница каждого ЖК предоставляет подробное описание проекта, изображения планировок, доступные способы покупки и даже интерактивную карту с моделью будущего дома, которая позволяет точно понять, как будет располагаться комплекс и какие объекты инфраструктуры есть вокруг. Также для некоторых ЖК Астаны Korter отслеживает ход строительства с помощью фотографий и аэрооблета, который позволяет разглядеть проект и его окрестности с высоты птичьего полета. Таким образом, можно следить за соблюдением сроков и технологии возведения еще на этапе строительства.&nbsp;</p><h3><i>Характеристики ЖК в Астане</i></h3><figure class=\"table\"><table><tbody><tr><td>✅ &nbsp;Берег</td><td><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%BB%D0%B5%D0%B2%D1%8B%D0%B9-%D0%B1%D0%B5%D1%80%D0%B5%D0%B3\">Левый берег Астаны</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%BF%D1%80%D0%B0%D0%B2%D1%8B%D0%B9-%D0%B1%D0%B5%D1%80%D0%B5%D0%B3\">Правый берег Астаны</a></td></tr><tr><td>✅ &nbsp;Район&nbsp;</td><td><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%B0%D0%BB%D0%BC%D0%B0%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD\">Алматинский</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%B1%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD\">Байконурский</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%B5%D1%81%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD\">Есильский</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%BD%D1%83%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD\">Нуринский</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D1%81%D0%B0%D1%80%D1%8B%D0%B0%D1%80%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD\">Сарыаркинский</a></td></tr><tr><td>✅ &nbsp;Завершение строительства</td><td><a href=\"https://korter.kz/%D1%81%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%BD%D1%83%D1%80-%D1%81%D1%83%D0%BB%D1%82%D0%B0%D0%BD%D0%B0-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B\">Сданные</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D1%81%D0%B4%D0%B0%D1%87%D0%B0-2024\">Сдача в 2024</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D1%81%D0%B4%D0%B0%D1%87%D0%B0-2025\">Сдача в 2025+</a></td></tr><tr><td>✅ &nbsp;Условия покупки</td><td><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82-%D0%BE%D1%82-%D0%B7%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B0\">Ипотека</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D1%80%D0%B0%D1%81%D1%81%D1%80%D0%BE%D1%87%D0%BA%D0%B0-%D0%BE%D1%82-%D0%B7%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B0\">Рассрочка</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-7-20-25\">7-20-25</a><br>Шаңырақ (5-10-20)</td></tr><tr><td>✅ &nbsp;Класс жилья</td><td><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D1%8D%D0%BB%D0%B8%D1%82-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0\">I класс (элит)</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0\">II класс (бизнес)</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0\">III класс (комфорт)</a><br><a href=\"https://korter.kz/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%B0%D1%81%D1%82%D0%B0%D0%BD%D1%8B-%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0\">IV класс (эконом)</a></td></tr><tr><td>✅ &nbsp;Отделка квартир</td><td>Черновая<br>Предчистовая<br>Чистовая</td></tr><tr><td>✅ &nbsp;Паркинг</td><td>Подземный<br>Наземный<br>Гостевой</td></tr><tr><td>✅ &nbsp;Отопление</td><td>Центральное<br>Автономное</td></tr></tbody></table></figure>"
+  },
+  "currencyStore": {
+    "rate": 474.194,
+    "inverseRate": 0.002109,
+    "currency": "KZT",
+    "areaUnit": "m",
+    "landAreaUnit": "m"
+  },
+  "leadStore": {
+    "openedLeadForm": null,
+    "openedLeadPurchaseOfferId": null,
+    "openedLeadFormBuildingId": null,
+    "openedLeadFormAgent": null
+  },
+  "contactsStore": {
+    "buildingId": null,
+    "main": null,
+    "seller": null,
+    "developer": null,
+    "agentVariantIds": {},
+    "locale": "ru-RU"
+  },
+  "buildingListingStore": {
+    "geoObjectsAvgPrices": {
+      "geoObject": {
+        "category": "city",
+        "preposition": "Астане",
+        "nominative": "Астана",
+        "genitive": "Астаны"
+      },
+      "primaryGeoObjects": {
+        "category": "district",
+        "geoObjects": [
+          {
+            "geoObjectId": 23,
+            "nominative": "Сарыарка",
+            "averagePrice": 424166,
+            "maxLayoutsPrice": 191070000,
+            "minLayoutsPrice": 17071000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-астаны-сарыаркинский-район",
+            "buildingListingLink": "/новостройки-астаны-сарыаркинский-район",
+            "apartmentListingLink": "/продажа-квартир-астана-сарыаркинский-район",
+            "houseListingLink": null,
+            "commercialListingLink": null,
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 22,
+            "nominative": "Есильский",
+            "averagePrice": 623136,
+            "maxLayoutsPrice": 578409030,
+            "minLayoutsPrice": 9000000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-астаны-есильский-район",
+            "buildingListingLink": "/новостройки-астаны-есильский-район",
+            "apartmentListingLink": "/продажа-квартир-астана-есильский-район",
+            "houseListingLink": null,
+            "commercialListingLink": null,
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 55,
+            "nominative": "Нура",
+            "averagePrice": 556726,
+            "maxLayoutsPrice": 283574500,
+            "minLayoutsPrice": 7526850,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-астаны-нуринский-район",
+            "buildingListingLink": "/новостройки-астаны-нуринский-район",
+            "apartmentListingLink": "/продажа-квартир-астана-нуринский-район",
+            "houseListingLink": null,
+            "commercialListingLink": null,
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 43,
+            "nominative": "Байконурский",
+            "averagePrice": 350000,
+            "maxLayoutsPrice": 42595000,
+            "minLayoutsPrice": 18722000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-астаны-байконурский-район",
+            "buildingListingLink": "/новостройки-астаны-байконурский-район",
+            "apartmentListingLink": "/продажа-квартир-астана-байконурский-район",
+            "houseListingLink": null,
+            "commercialListingLink": null,
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 21,
+            "nominative": "Алматинский",
+            "averagePrice": 486540,
+            "maxLayoutsPrice": 321429400,
+            "minLayoutsPrice": 10083165,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-астаны-алматинский-район",
+            "buildingListingLink": "/новостройки-астаны-алматинский-район",
+            "apartmentListingLink": "/продажа-квартир-астана-алматинский-район",
+            "houseListingLink": null,
+            "commercialListingLink": null,
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          }
+        ]
+      },
+      "secondaryGeoObjects": {
+        "category": "city",
+        "geoObjects": [
+          {
+            "geoObjectId": 45,
+            "nominative": "Косшы",
+            "averagePrice": 304266,
+            "maxLayoutsPrice": 27064000,
+            "minLayoutsPrice": 7672000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-косшы",
+            "buildingListingLink": "/новостройки-косшы",
+            "apartmentListingLink": "/продажа-квартир-косшы",
+            "houseListingLink": "/продажа-домов-косшы",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-косшы",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 4,
+            "nominative": "Караганда",
+            "averagePrice": 366472,
+            "maxLayoutsPrice": 149682000,
+            "minLayoutsPrice": 9555900,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-караганды",
+            "buildingListingLink": "/новостройки-караганды",
+            "apartmentListingLink": "/продажа-квартир-караганда",
+            "houseListingLink": "/продажа-домов-караганда",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-караганда",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 44,
+            "nominative": "Кокшетау",
+            "averagePrice": 328522,
+            "maxLayoutsPrice": 80149450,
+            "minLayoutsPrice": 6693000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-кокшетау",
+            "buildingListingLink": "/новостройки-кокшетау",
+            "apartmentListingLink": "/продажа-квартир-кокшетау",
+            "houseListingLink": "/продажа-домов-кокшетау",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-кокшетау",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 37,
+            "nominative": "Павлодар",
+            "averagePrice": 383333,
+            "maxLayoutsPrice": 57233000,
+            "minLayoutsPrice": 11991000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-павлодара",
+            "buildingListingLink": "/новостройки-павлодара",
+            "apartmentListingLink": "/продажа-квартир-павлодар",
+            "houseListingLink": "/продажа-домов-павлодар",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-павлодар",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 31,
+            "nominative": "Петропавловск",
+            "averagePrice": 374375,
+            "maxLayoutsPrice": 42120000,
+            "minLayoutsPrice": 14976000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-петропавловска",
+            "buildingListingLink": "/новостройки-петропавловска",
+            "apartmentListingLink": "/продажа-квартир-петропавловск",
+            "houseListingLink": "/продажа-домов-петропавловск",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-петропавловск",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 5,
+            "nominative": "Костанай",
+            "averagePrice": 395160,
+            "maxLayoutsPrice": 68496000,
+            "minLayoutsPrice": 9216900,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-костаная",
+            "buildingListingLink": "/новостройки-костаная",
+            "apartmentListingLink": "/продажа-квартир-костанай",
+            "houseListingLink": "/продажа-домов-костанай",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-костанаи",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 41,
+            "nominative": "Семей",
+            "averagePrice": 426657,
+            "maxLayoutsPrice": 66000000,
+            "minLayoutsPrice": 9376250,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-семея",
+            "buildingListingLink": "/новостройки-семея",
+            "apartmentListingLink": "/продажа-квартир-семей",
+            "houseListingLink": "/продажа-домов-семей",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-семеи",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 34,
+            "nominative": "Усть-Каменогорск",
+            "averagePrice": 435919,
+            "maxLayoutsPrice": 152296400,
+            "minLayoutsPrice": 11842000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-усть-каменогорска",
+            "buildingListingLink": "/новостройки-усть-каменогорска",
+            "apartmentListingLink": "/продажа-квартир-усть-каменогорск",
+            "houseListingLink": "/продажа-домов-усть-каменогорск",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-усть-каменогорск",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 6,
+            "nominative": "Талдыкорган",
+            "averagePrice": 420000,
+            "maxLayoutsPrice": 55832400,
+            "minLayoutsPrice": 18912400,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": null,
+            "buildingListingLink": "/новостройки-талдыкоргана",
+            "apartmentListingLink": "/продажа-квартир-талдыкорган",
+            "houseListingLink": "/продажа-домов-талдыкорган",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-талдыкорган",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 53,
+            "nominative": "Туркестан",
+            "averagePrice": 360000,
+            "maxLayoutsPrice": 39265800,
+            "minLayoutsPrice": 15799000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-туркестана",
+            "buildingListingLink": "/новостройки-туркестана",
+            "apartmentListingLink": "/продажа-квартир-туркестан",
+            "houseListingLink": "/продажа-домов-туркестан",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-туркестан",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 46,
+            "nominative": "Конаев (Капшагай)",
+            "averagePrice": 396000,
+            "maxLayoutsPrice": 40294800,
+            "minLayoutsPrice": 13708200,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-капчагая",
+            "buildingListingLink": "/новостройки-капчагая",
+            "apartmentListingLink": "/продажа-квартир-капшагай",
+            "houseListingLink": "/продажа-домов-конаев-капшагай",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-конаев-капшагаи",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 36,
+            "nominative": "Тараз",
+            "averagePrice": 340000,
+            "maxLayoutsPrice": 69925000,
+            "minLayoutsPrice": 17619000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-тараза",
+            "buildingListingLink": "/новостройки-тараза",
+            "apartmentListingLink": "/продажа-квартир-тараз",
+            "houseListingLink": "/продажа-домов-тараз",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-тараз",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 50,
+            "nominative": "Отеген Батыр",
+            "averagePrice": 416666,
+            "maxLayoutsPrice": 37944000,
+            "minLayoutsPrice": 11264400,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-отеген-батыр",
+            "buildingListingLink": "/новостройки-отеген-батыр",
+            "apartmentListingLink": "/продажа-квартир-отеген-батыр",
+            "houseListingLink": "/продажа-домов-отеген-батыр",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-отеген-батыр",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 47,
+            "nominative": "Каскелен",
+            "averagePrice": 405000,
+            "maxLayoutsPrice": 35775000,
+            "minLayoutsPrice": 13726800,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-каскелена",
+            "buildingListingLink": "/новостройки-каскелена",
+            "apartmentListingLink": "/продажа-квартир-каскелен",
+            "houseListingLink": "/продажа-домов-каскелен",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-каскелен",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 54,
+            "nominative": "Туздыбастау",
+            "averagePrice": 397500,
+            "maxLayoutsPrice": 29646000,
+            "minLayoutsPrice": 10780000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-туздыбастау",
+            "buildingListingLink": "/новостройки-туздыбастау",
+            "apartmentListingLink": "/продажа-квартир-туздыбастау",
+            "houseListingLink": "/продажа-домов-туздыбастау",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-туздыбастау",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 49,
+            "nominative": "Бесагаш",
+            "averagePrice": 512500,
+            "maxLayoutsPrice": 48960000,
+            "minLayoutsPrice": 15372000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-бесагаш",
+            "buildingListingLink": "/новостройки-бесагаш",
+            "apartmentListingLink": "/продажа-квартир-бесагаш",
+            "houseListingLink": "/продажа-домов-бесагаш",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-бесагаш",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 2,
+            "nominative": "Алматы",
+            "averagePrice": 774323,
+            "maxLayoutsPrice": 881800000,
+            "minLayoutsPrice": 10780000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-алматы",
+            "buildingListingLink": "/новостройки-алматы",
+            "apartmentListingLink": "/продажа-квартир-алматы",
+            "houseListingLink": "/продажа-домов-алматы",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-алматы",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 48,
+            "nominative": "Талгар",
+            "averagePrice": 361666,
+            "maxLayoutsPrice": 72640000,
+            "minLayoutsPrice": 10804000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-талгар",
+            "buildingListingLink": "/новостройки-талгар",
+            "apartmentListingLink": "/продажа-квартир-талгар",
+            "houseListingLink": "/продажа-домов-талгар",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-талгар",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 3,
+            "nominative": "Шымкент",
+            "averagePrice": 492506,
+            "maxLayoutsPrice": 249404400,
+            "minLayoutsPrice": 4028200,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-шымкента",
+            "buildingListingLink": "/новостройки-шымкента",
+            "apartmentListingLink": "/продажа-квартир-шымкент",
+            "houseListingLink": "/продажа-домов-шымкент",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-шымкент",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          },
+          {
+            "geoObjectId": 35,
+            "nominative": "Актобе",
+            "averagePrice": 304166,
+            "maxLayoutsPrice": 101998800,
+            "minLayoutsPrice": 9542000,
+            "minLayoutsRentPrice": null,
+            "maxLayoutsRentPrice": null,
+            "minLayoutsDailyRentPrice": null,
+            "maxLayoutsDailyRentPrice": null,
+            "cottageListingLink": "/коттеджные-городки-актобе",
+            "buildingListingLink": "/новостройки-актобе",
+            "apartmentListingLink": "/продажа-квартир-актобе",
+            "houseListingLink": "/продажа-домов-актобе",
+            "commercialListingLink": "/продажа-коммерческой-недвижимости-актобе",
+            "apartmentListingRentLink": null,
+            "apartmentsListingDailyRentLink": null,
+            "houseListingRentLink": null,
+            "houseListingDailyRentLink": null
+          }
+        ]
+      }
+    },
+    "buildings": [
+      {
+        "buildingId": 2969,
+        "url": "/жк-imran-нур-султан-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/26577.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/26577.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Imran",
+        "address": "",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Алматинский",
+        "minPriceSqm": null,
+        "minPrice": null,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 1071,
+            "name": "Nomad Group",
+            "link": "/nomad-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [
+          {
+            "name": "hotDeal",
+            "text": "Акция"
+          }
+        ],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.11122271,
+          "lng": 71.52168224
+        },
+        "constructionStatus": "construction",
+        "phone": "+7 (700) 836-84-67",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 4102,
+        "url": "/salman-city-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/44644.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/44644.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Salman City",
+        "address": "ул. ​Казыбек би, 41",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": 418000,
+        "minPrice": 15925800,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 833,
+            "name": "Ulytau Group",
+            "link": "/mwc",
+            "isBranded": false,
+            "hexColor": "#B29784",
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.09680671,
+          "lng": 71.38242857
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 (700) 836-84-87",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3742,
+        "url": "/жк-altyn-saulet-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/37028.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/37028.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Altyn Säulet",
+        "address": "ул. Кайым Мухамедханов, 30",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": 460990,
+        "minPrice": 16521882,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 833,
+            "name": "Ulytau Group",
+            "link": "/mwc",
+            "isBranded": false,
+            "hexColor": "#B29784",
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [
+          {
+            "name": "documents"
+          },
+          {
+            "name": "aero"
+          }
+        ],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.14155183,
+          "lng": 71.35959102
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 (700) 836-84-87",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3923,
+        "url": "/жк-rauda-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/40571.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/40571.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Rauda",
+        "address": "просп. Туран, 71​",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": 590000,
+        "minPrice": 23576400,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 1461,
+            "name": "Isma Invest",
+            "link": "/dfk-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [
+          {
+            "name": "documents"
+          }
+        ],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.09537744,
+          "lng": 71.39164482
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 (771) 480-20-20",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 2942,
+        "url": "/жк-tasty-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/41362.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/41362.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Tasty",
+        "address": "ул. Мухамеджан Тынышбайулы, стр. 6",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Алматинский",
+        "minPriceSqm": 447147,
+        "minPrice": 10083165,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 948,
+            "name": "Beles",
+            "link": "/beles-holding",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.11524585,
+          "lng": 71.53549995
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 (700) 836-87-55",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3246,
+        "url": "/жк-фирдаус-нур-султан-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/31964.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/31964.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Фирдаус",
+        "address": "ул. Ахмет Байтурсынулы, 18",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Алматинский",
+        "minPriceSqm": 370000,
+        "minPrice": 16428000,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 948,
+            "name": "Beles",
+            "link": "/beles-holding",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.11699116,
+          "lng": 71.51217184
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 (700) 836-84-68",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3343,
+        "url": "/жк-гимала1-астана-нур-султан",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/36236.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/36236.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Гималай",
+        "address": "ул. Жумекен Нажимеденов, 13/2",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Алматинский",
+        "minPriceSqm": 330000,
+        "minPrice": 12622500,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 948,
+            "name": "Beles",
+            "link": "/beles-holding",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.11418329,
+          "lng": 71.51110533
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 (700) 836-84-71",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 321,
+        "url": "/жк-лесная-поляна-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/29994.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/29994.jpg"
+              }
+            }
+          }
+        ],
+        "name": "Жилой массив Лесная Поляна",
+        "address": "ул. Лесная Поляна, 1-37",
+        "mainGeoObject": {
+          "id": 45,
+          "name": "Косшы"
+        },
+        "subLocalityNominative": null,
+        "minPriceSqm": 292800,
+        "minPrice": 10679000,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 104,
+            "name": "Global Expert Development Group",
+            "link": "/global-expert-development-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [
+          {
+            "name": "aero"
+          }
+        ],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.00389598,
+          "lng": 71.37502814
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 (700) 836-87-66",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 2706,
+        "url": "/жк-aviator-2-нур-султан-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/31392.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/31392.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Aviator 2",
+        "address": "ул. Арнасай",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Есильский",
+        "minPriceSqm": 320000,
+        "minPrice": 11337600,
+        "minPriceSqmByLayouts": null,
+        "status": "premium",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 504,
+            "name": "Aiz Qurylys",
+            "link": "/aiz-qurylys",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.04221435,
+          "lng": 71.42685458
+        },
+        "constructionStatus": "ready",
+        "phone": "+7 747 094 0875",
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 4383,
+        "url": "/uia-birlik-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/48173.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/48173.jpg"
+              }
+            }
+          }
+        ],
+        "name": "UIA. BIRLIK",
+        "address": "вдоль пр. Улы дала",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": 472000,
+        "minPrice": 0,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 14,
+            "name": "BI Group",
+            "link": "/bi-group",
+            "isBranded": false,
+            "hexColor": "#15599D",
+            "logoWhiteNoTextSvg": "//storage.googleapis.com/bd-kz-01/developer_image/logo_white_no_text_svg/614.svg?cache=20251015"
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.10270977,
+          "lng": 71.36458668
+        },
+        "constructionStatus": "construction",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 4075,
+        "url": "/жк-salt-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/43321.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/43321.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Salt",
+        "address": "ул. Е-779, уч.32",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": null,
+        "minPriceSqm": 450000,
+        "minPrice": 21350000,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 1515,
+            "name": "Aiva Group",
+            "link": "/aiva-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [
+          {
+            "name": "documents"
+          }
+        ],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.08101886,
+          "lng": 71.49418509
+        },
+        "constructionStatus": "construction",
+        "phone": null,
+        "isDeveloperPhoneShown": false
+      },
+      {
+        "buildingId": 3715,
+        "url": "/greenline-headliner-exclusive-astana",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/41204.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/41204.jpg"
+              }
+            }
+          }
+        ],
+        "name": "GreenLine. Headliner Exclusive",
+        "address": "ул. Толе би, 52, 54, 54/1",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": 886487,
+        "minPrice": 37165850,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 14,
+            "name": "BI Group",
+            "link": "/bi-group",
+            "isBranded": false,
+            "hexColor": "#15599D",
+            "logoWhiteNoTextSvg": "//storage.googleapis.com/bd-kz-01/developer_image/logo_white_no_text_svg/614.svg?cache=20251015"
+          }
+        ],
+        "labels": [],
+        "featureLabels": [
+          {
+            "name": "chess"
+          }
+        ],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.1344055,
+          "lng": 71.39930882
+        },
+        "constructionStatus": "construction",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 1676,
+        "url": "/жк-capital-park-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/32702.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/32702.jpg"
+              }
+            }
+          }
+        ],
+        "name": "Capital Park. Flowers",
+        "address": "просп. Аль-Фараби, стр. 11/3",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Есильский",
+        "minPriceSqm": null,
+        "minPrice": null,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 14,
+            "name": "BI Group",
+            "link": "/bi-group",
+            "isBranded": false,
+            "hexColor": "#15599D",
+            "logoWhiteNoTextSvg": "//storage.googleapis.com/bd-kz-01/developer_image/logo_white_no_text_svg/614.svg?cache=20251015"
+          }
+        ],
+        "labels": [],
+        "featureLabels": [
+          {
+            "name": "aero"
+          }
+        ],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.09825715,
+          "lng": 71.44952514
+        },
+        "constructionStatus": "ready",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 4008,
+        "url": "/nexpo-classic-style-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/42004.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/42004.jpg"
+              }
+            }
+          }
+        ],
+        "name": "Nexpo Classic Style",
+        "address": "ул Турар Рыскулов, 1/1",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Есильский",
+        "minPriceSqm": 1100000,
+        "minPrice": 31762500,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 14,
+            "name": "BI Group",
+            "link": "/bi-group",
+            "isBranded": false,
+            "hexColor": "#15599D",
+            "logoWhiteNoTextSvg": "//storage.googleapis.com/bd-kz-01/developer_image/logo_white_no_text_svg/614.svg?cache=20251015"
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.08683231,
+          "lng": 71.40619444
+        },
+        "constructionStatus": "construction",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3825,
+        "url": "/mod-comfort-astana",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/41003.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/41003.jpg"
+              }
+            }
+          }
+        ],
+        "name": "MOD Comfort",
+        "address": "ул. Турар Рыскулов, 16, 16/2",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Есильский",
+        "minPriceSqm": null,
+        "minPrice": null,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 14,
+            "name": "BI Group",
+            "link": "/bi-group",
+            "isBranded": false,
+            "hexColor": "#15599D",
+            "logoWhiteNoTextSvg": "//storage.googleapis.com/bd-kz-01/developer_image/logo_white_no_text_svg/614.svg?cache=20251015"
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.08090969,
+          "lng": 71.43041361
+        },
+        "constructionStatus": "ready",
+        "phone": null,
+        "isDeveloperPhoneShown": false
+      },
+      {
+        "buildingId": 3951,
+        "url": "/жк-tumar-residence-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/41048.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/41048.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Tumar Residence",
+        "address": "просп. Мангилик Ел, 63/1",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Есильский",
+        "minPriceSqm": 510000,
+        "minPrice": 38303100,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 446,
+            "name": "Tumar Group",
+            "link": "/tumar-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.0814425,
+          "lng": 71.42025337
+        },
+        "constructionStatus": "ready",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3910,
+        "url": "/жк-sultan-beibarys-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/40353.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/40353.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Sultan Beibarys",
+        "address": "ул. Сыганак / ул. Анет Баба",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": 490000,
+        "minPrice": 42600600,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 446,
+            "name": "Tumar Group",
+            "link": "/tumar-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.12865687,
+          "lng": 71.38313744
+        },
+        "constructionStatus": "ready",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3630,
+        "url": "/жк-м-зтау-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/40243.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/40243.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Muz Tau",
+        "address": "ул. Ахмет Байтурсынулы, 16/3",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Алматинский",
+        "minPriceSqm": 450000,
+        "minPrice": 41778000,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 948,
+            "name": "Beles",
+            "link": "/beles-holding",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.11635646,
+          "lng": 71.50959959
+        },
+        "constructionStatus": "ready",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 3810,
+        "url": "/жк-tumar-club-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/38699.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/38699.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Tumar Club",
+        "address": "​ул. Анет баба, 4",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": 505000,
+        "minPrice": 36839750,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 446,
+            "name": "Tumar Group",
+            "link": "/tumar-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.1327941,
+          "lng": 71.38482355
+        },
+        "constructionStatus": "construction",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      },
+      {
+        "buildingId": 4173,
+        "url": "/жк-uly-dala-park-life-астана",
+        "images": [
+          {
+            "mediaSrc": {
+              "default": {
+                "x1": "https://storage.googleapis.com/bd-kz-01/buildings-v2/420x315/45440.jpg",
+                "x2": "https://storage.googleapis.com/bd-kz-01/buildings-v2/840x630/45440.jpg"
+              }
+            }
+          }
+        ],
+        "name": "ЖК Uly Dala Park | Life",
+        "address": "​ул. Е 908, 24",
+        "mainGeoObject": {
+          "id": 1,
+          "name": "Астана"
+        },
+        "subLocalityNominative": "Нура",
+        "minPriceSqm": null,
+        "minPrice": null,
+        "minPriceSqmByLayouts": null,
+        "status": "basic",
+        "salesStatus": "available",
+        "developers": [
+          {
+            "developerId": 446,
+            "name": "Tumar Group",
+            "link": "/tumar-group",
+            "isBranded": false,
+            "hexColor": null,
+            "logoWhiteNoTextSvg": null
+          }
+        ],
+        "labels": [],
+        "featureLabels": [],
+        "hasTaxInclusion": false,
+        "location": {
+          "lat": 51.10047414,
+          "lng": 71.37659333
+        },
+        "constructionStatus": "construction",
+        "phone": null,
+        "isDeveloperPhoneShown": true
+      }
+    ],
+    "isCottagesType": false,
+    "minLayoutsPricesSeoTable": null,
+    "filteredBuildingIds": [
+      2394,
+      2058,
+      3784,
+      3942,
+      2668,
+      2739,
+      2956,
+      3079,
+      3650,
+      3687,
+      3255,
+      3291,
+      4125,
+      4309,
+      4322,
+      4333,
+      2408,
+      2435,
+      795,
+      2095,
+      2244,
+      3796,
+      3803,
+      3808,
+      3883,
+      3930,
+      3955,
+      1494,
+      1687,
+      1689,
+      1807,
+      2732,
+      3111,
+      3159,
+      3672,
+      3774,
+      3482,
+      3514,
+      3539,
+      4067,
+      4133,
+      4139,
+      4141,
+      4142,
+      4174,
+      4191,
+      4245,
+      4265,
+      4280,
+      4301,
+      4311,
+      4331,
+      4345,
+      4346,
+      2341,
+      2348,
+      2395,
+      2449,
+      2497,
+      2558,
+      2559,
+      2571,
+      2575,
+      2577,
+      2580,
+      2584,
+      2616,
+      927,
+      944,
+      964,
+      967,
+      1066,
+      1120,
+      1176,
+      1341,
+      490,
+      499,
+      551,
+      570,
+      583,
+      613,
+      647,
+      675,
+      697,
+      706,
+      711,
+      753,
+      792,
+      811,
+      1822,
+      2003,
+      2194,
+      2242,
+      3823,
+      1431,
+      1531,
+      1572,
+      1590,
+      1622,
+      1667,
+      1716,
+      1743,
+      2652,
+      2792,
+      2809,
+      2810,
+      3028,
+      3059,
+      3063,
+      3076,
+      3090,
+      3094,
+      3604,
+      3674,
+      3737,
+      3766,
+      3180,
+      3190,
+      3198,
+      3276,
+      3311,
+      3378,
+      3457,
+      3459,
+      4016,
+      4070,
+      2277,
+      2294,
+      2325,
+      2345,
+      2351,
+      2352,
+      2354,
+      2357,
+      2362,
+      2365,
+      2368,
+      2370,
+      2375,
+      2379,
+      2383,
+      2391,
+      2401,
+      2412,
+      2414,
+      2416,
+      2421,
+      2439,
+      2444,
+      2463,
+      2476,
+      2482,
+      2483,
+      2490,
+      2493,
+      2498,
+      2503,
+      2506,
+      2511,
+      2513,
+      2514,
+      2515,
+      2517,
+      2519,
+      2524,
+      2528,
+      2537,
+      2539,
+      2540,
+      2546,
+      2557,
+      2563,
+      2564,
+      2566,
+      2568,
+      2570,
+      2572,
+      2573,
+      2574,
+      2578,
+      2587,
+      2590,
+      2594,
+      2597,
+      2601,
+      2604,
+      2607,
+      2611,
+      2615,
+      2620,
+      2622,
+      2626,
+      2632,
+      2637,
+      2639,
+      2641,
+      2643,
+      2647,
+      886,
+      890,
+      899,
+      914,
+      919,
+      926,
+      933,
+      935,
+      972,
+      1013,
+      1014,
+      1030,
+      1182,
+      1212,
+      1344,
+      1346,
+      1347,
+      1356,
+      1371,
+      1373,
+      321,
+      328,
+      335,
+      342,
+      448,
+      478,
+      479,
+      506,
+      518,
+      537,
+      586,
+      629,
+      631,
+      639,
+      740,
+      747,
+      783,
+      785,
+      788,
+      818,
+      828,
+      840,
+      1813,
+      1828,
+      1885,
+      1900,
+      1918,
+      1990,
+      2042,
+      2043,
+      2059,
+      2079,
+      2087,
+      2088,
+      2094,
+      2101,
+      2109,
+      2130,
+      2133,
+      2147,
+      2203,
+      2223,
+      2243,
+      2245,
+      2250,
+      2256,
+      2259,
+      2269,
+      2270,
+      3785,
+      3786,
+      3790,
+      3792,
+      3793,
+      3797,
+      3800,
+      3801,
+      3804,
+      3805,
+      3806,
+      3807,
+      3809,
+      3810,
+      3811,
+      3813,
+      3815,
+      3816,
+      3817,
+      3819,
+      3820,
+      3824,
+      3825,
+      3827,
+      3828,
+      3829,
+      3831,
+      3832,
+      3833,
+      3834,
+      3835,
+      3837,
+      3838,
+      3839,
+      3840,
+      3841,
+      3843,
+      3848,
+      3849,
+      3851,
+      3852,
+      3853,
+      3854,
+      3855,
+      3856,
+      3857,
+      3859,
+      3860,
+      3861,
+      3862,
+      3863,
+      3864,
+      3867,
+      3868,
+      3870,
+      3871,
+      3873,
+      3875,
+      3876,
+      3878,
+      3879,
+      3880,
+      3881,
+      3882,
+      3884,
+      3886,
+      3889,
+      3895,
+      3896,
+      3899,
+      3901,
+      3904,
+      3907,
+      3909,
+      3910,
+      3911,
+      3916,
+      3917,
+      3918,
+      3919,
+      3920,
+      3921,
+      3923,
+      3924,
+      3925,
+      3926,
+      3927,
+      3928,
+      3929,
+      3932,
+      3934,
+      3937,
+      3938,
+      3940,
+      3941,
+      3945,
+      3947,
+      3951,
+      3953,
+      3957,
+      3958,
+      3960,
+      3964,
+      3965,
+      3968,
+      3969,
+      3971,
+      3972,
+      3973,
+      3974,
+      3975,
+      3976,
+      3977,
+      3978,
+      3979,
+      3980,
+      3981,
+      3982,
+      3983,
+      3984,
+      3985,
+      3987,
+      3988,
+      3989,
+      3990,
+      3991,
+      3994,
+      3995,
+      3996,
+      3999,
+      4001,
+      4002,
+      4003,
+      4005,
+      4006,
+      4007,
+      4008,
+      4009,
+      4010,
+      4011,
+      4012,
+      1454,
+      1496,
+      1519,
+      1546,
+      1554,
+      1557,
+      1592,
+      1593,
+      1597,
+      1602,
+      1653,
+      1658,
+      1676,
+      1683,
+      1698,
+      1699,
+      1702,
+      1709,
+      1739,
+      1744,
+      1746,
+      1754,
+      1771,
+      1780,
+      1787,
+      1790,
+      1791,
+      1793,
+      2648,
+      2649,
+      2651,
+      2656,
+      2660,
+      2664,
+      2669,
+      2670,
+      2673,
+      2676,
+      2678,
+      2681,
+      2685,
+      2686,
+      2689,
+      2692,
+      2694,
+      2696,
+      2698,
+      2699,
+      2701,
+      2706,
+      2707,
+      2717,
+      2718,
+      2719,
+      2730,
+      2731,
+      2735,
+      2740,
+      2745,
+      2749,
+      2759,
+      2767,
+      2768,
+      2770,
+      2772,
+      2775,
+      2777,
+      2789,
+      2790,
+      2791,
+      2795,
+      2802,
+      2806,
+      2811,
+      2813,
+      2817,
+      2833,
+      2837,
+      2838,
+      2839,
+      2840,
+      2842,
+      2844,
+      2846,
+      2848,
+      2850,
+      2875,
+      2877,
+      2880,
+      2884,
+      2886,
+      2889,
+      2890,
+      2893,
+      2912,
+      2914,
+      2917,
+      2918,
+      2923,
+      2924,
+      2930,
+      2932,
+      2934,
+      2938,
+      2939,
+      2941,
+      2942,
+      2944,
+      2951,
+      2952,
+      2953,
+      2957,
+      2962,
+      2963,
+      2965,
+      2967,
+      2969,
+      2970,
+      2971,
+      2972,
+      2975,
+      2984,
+      2985,
+      2986,
+      2987,
+      2990,
+      2992,
+      2998,
+      2999,
+      3000,
+      3001,
+      3002,
+      3003,
+      3004,
+      3006,
+      3008,
+      3010,
+      3012,
+      3015,
+      3020,
+      3023,
+      3024,
+      3026,
+      3037,
+      3038,
+      3042,
+      3045,
+      3054,
+      3055,
+      3056,
+      3057,
+      3058,
+      3062,
+      3069,
+      3070,
+      3073,
+      3075,
+      3077,
+      3082,
+      3085,
+      3086,
+      3087,
+      3091,
+      3095,
+      3096,
+      3097,
+      3099,
+      3105,
+      3106,
+      3107,
+      3108,
+      3110,
+      3112,
+      3118,
+      3119,
+      3120,
+      3123,
+      3124,
+      3125,
+      3128,
+      3132,
+      3135,
+      3136,
+      3137,
+      3145,
+      3150,
+      3151,
+      3153,
+      3154,
+      3156,
+      3157,
+      3158,
+      3168,
+      3540,
+      3542,
+      3554,
+      3563,
+      3566,
+      3570,
+      3571,
+      3575,
+      3584,
+      3586,
+      3587,
+      3591,
+      3592,
+      3596,
+      3602,
+      3603,
+      3607,
+      3616,
+      3619,
+      3620,
+      3623,
+      3630,
+      3631,
+      3632,
+      3633,
+      3634,
+      3637,
+      3639,
+      3643,
+      3644,
+      3645,
+      3646,
+      3647,
+      3649,
+      3651,
+      3654,
+      3657,
+      3658,
+      3659,
+      3660,
+      3661,
+      3662,
+      3664,
+      3666,
+      3667,
+      3668,
+      3670,
+      3671,
+      3675,
+      3676,
+      3677,
+      3679,
+      3680,
+      3682,
+      3683,
+      3684,
+      3686,
+      3691,
+      3693,
+      3695,
+      3696,
+      3698,
+      3699,
+      3700,
+      3703,
+      3704,
+      3712,
+      3714,
+      3715,
+      3716,
+      3719,
+      3721,
+      3726,
+      3727,
+      3728,
+      3729,
+      3730,
+      3732,
+      3733,
+      3735,
+      3738,
+      3740,
+      3742,
+      3744,
+      3745,
+      3749,
+      3750,
+      3751,
+      3755,
+      3760,
+      3763,
+      3769,
+      3778,
+      3780,
+      3781,
+      3782,
+      3783,
+      9,
+      52,
+      126,
+      3176,
+      3178,
+      3181,
+      3184,
+      3185,
+      3187,
+      3189,
+      3191,
+      3194,
+      3195,
+      3196,
+      3199,
+      3201,
+      3208,
+      3210,
+      3211,
+      3215,
+      3216,
+      3219,
+      3220,
+      3223,
+      3227,
+      3228,
+      3229,
+      3230,
+      3233,
+      3234,
+      3235,
+      3236,
+      3237,
+      3241,
+      3242,
+      3246,
+      3248,
+      3249,
+      3253,
+      3259,
+      3260,
+      3262,
+      3263,
+      3264,
+      3266,
+      3267,
+      3268,
+      3274,
+      3278,
+      3281,
+      3283,
+      3284,
+      3286,
+      3289,
+      3296,
+      3301,
+      3302,
+      3306,
+      3312,
+      3316,
+      3318,
+      3323,
+      3329,
+      3330,
+      3333,
+      3336,
+      3338,
+      3339,
+      3343,
+      3344,
+      3347,
+      3350,
+      3352,
+      3356,
+      3360,
+      3361,
+      3365,
+      3366,
+      3367,
+      3370,
+      3372,
+      3377,
+      3379,
+      3382,
+      3383,
+      3385,
+      3386,
+      3400,
+      3401,
+      3402,
+      3407,
+      3419,
+      3420,
+      3421,
+      3422,
+      3425,
+      3427,
+      3429,
+      3433,
+      3434,
+      3438,
+      3444,
+      3458,
+      3461,
+      3464,
+      3465,
+      3467,
+      3468,
+      3472,
+      3476,
+      3478,
+      3479,
+      3480,
+      3481,
+      3485,
+      3490,
+      3491,
+      3492,
+      3493,
+      3495,
+      3496,
+      3499,
+      3506,
+      3507,
+      3512,
+      3513,
+      3522,
+      3523,
+      3525,
+      3533,
+      4019,
+      4021,
+      4023,
+      4024,
+      4026,
+      4030,
+      4031,
+      4032,
+      4034,
+      4036,
+      4037,
+      4038,
+      4039,
+      4040,
+      4042,
+      4044,
+      4045,
+      4046,
+      4047,
+      4049,
+      4051,
+      4052,
+      4053,
+      4055,
+      4056,
+      4057,
+      4058,
+      4060,
+      4061,
+      4064,
+      4065,
+      4066,
+      4068,
+      4072,
+      4074,
+      4075,
+      4076,
+      4078,
+      4079,
+      4080,
+      4081,
+      4082,
+      4083,
+      4084,
+      4085,
+      4086,
+      4088,
+      4089,
+      4090,
+      4091,
+      4092,
+      4094,
+      4095,
+      4096,
+      4097,
+      4098,
+      4100,
+      4101,
+      4102,
+      4105,
+      4108,
+      4110,
+      4112,
+      4114,
+      4115,
+      4117,
+      4118,
+      4119,
+      4120,
+      4123,
+      4124,
+      4126,
+      4130,
+      4131,
+      4132,
+      4135,
+      4136,
+      4138,
+      4140,
+      4144,
+      4147,
+      4148,
+      4150,
+      4151,
+      4153,
+      4154,
+      4155,
+      4156,
+      4157,
+      4158,
+      4159,
+      4161,
+      4162,
+      4165,
+      4168,
+      4169,
+      4171,
+      4172,
+      4173,
+      4175,
+      4176,
+      4177,
+      4178,
+      4179,
+      4181,
+      4182,
+      4185,
+      4186,
+      4187,
+      4189,
+      4190,
+      4192,
+      4193,
+      4194,
+      4195,
+      4196,
+      4199,
+      4200,
+      4201,
+      4205,
+      4207,
+      4209,
+      4210,
+      4212,
+      4214,
+      4215,
+      4217,
+      4218,
+      4219,
+      4221,
+      4222,
+      4223,
+      4224,
+      4225,
+      4226,
+      4227,
+      4228,
+      4229,
+      4230,
+      4231,
+      4232,
+      4233,
+      4234,
+      4235,
+      4236,
+      4238,
+      4239,
+      4240,
+      4241,
+      4242,
+      4243,
+      4244,
+      4246,
+      4247,
+      4248,
+      4250,
+      4251,
+      4252,
+      4253,
+      4254,
+      4255,
+      4256,
+      4257,
+      4258,
+      4259,
+      4260,
+      4261,
+      4269,
+      4270,
+      4271,
+      4272,
+      4275,
+      4276,
+      4277,
+      4279,
+      4282,
+      4285,
+      4286,
+      4290,
+      4291,
+      4292,
+      4293,
+      4297,
+      4298,
+      4299,
+      4303,
+      4304,
+      4312,
+      4313,
+      4314,
+      4316,
+      4317,
+      4318,
+      4320,
+      4321,
+      4324,
+      4325,
+      4326,
+      4327,
+      4328,
+      4329,
+      4332,
+      4334,
+      4335,
+      4336,
+      4340,
+      4341,
+      4342,
+      4343,
+      4344,
+      4347,
+      4348,
+      4350,
+      4352,
+      4354,
+      4355,
+      4356,
+      4357,
+      4358,
+      4359,
+      4360,
+      4361,
+      4362,
+      4363,
+      4364,
+      4365,
+      4366,
+      4367,
+      4368,
+      4369,
+      4370,
+      4371,
+      4372,
+      4373,
+      4374,
+      4375,
+      4377,
+      4378,
+      4379,
+      4381,
+      4383,
+      4384,
+      4385,
+      4386,
+      4388,
+      4389,
+      4393,
+      4394,
+      4396
+    ],
+    "filtersStore": {
+      "routeParams": {
+        "geo_object_id": 1,
+        "class": null,
+        "finished": null,
+        "building_id": null,
+        "user_id": null,
+        "filter_id": null,
+        "variant_id": null,
+        "max_price": null
+      },
+      "filters": {
+        "classes": [],
+        "custom": {},
+        "endYears": [],
+        "endYear": {
+          "min": null,
+          "max": null
+        },
+        "price": {
+          "min": null,
+          "max": null
+        },
+        "priceSqm": {
+          "min": null,
+          "max": null
+        },
+        "area": {
+          "min": null,
+          "max": null
+        },
+        "landArea": {
+          "min": null,
+          "max": null
+        },
+        "landAreaUnit": "m",
+        "isFinished": false,
+        "isOffPlan": null,
+        "isFondWarranty": false,
+        "purchaseOffers": [],
+        "propertyTypes": [],
+        "roomCounts": [],
+        "houseIds": [],
+        "marketTypes": [],
+        "floorNumber": {
+          "min": null,
+          "max": null
+        },
+        "floorCounts": [],
+        "floorLabels": [],
+        "parkings": [],
+        "isSoldVisible": null,
+        "geoObjectIds": [
+          1
+        ],
+        "onlyCityGeoObjectId": null,
+        "objectId": null,
+        "buildingId": null,
+        "osmHouseId": null,
+        "propertyCategory": null,
+        "entityType": null,
+        "view": null,
+        "propertyCategories": [],
+        "sections": [],
+        "search": null,
+        "hasTerrace": false,
+        "hasBalcony": false,
+        "isFacade": false,
+        "isOpenPlan": false,
+        "isAdsActive": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "totalCount": 256,
+      "modalTotalCount": 256,
+      "availableFilters": {
+        "price": {
+          "min": 7526850,
+          "max": 964870200
+        },
+        "priceSqm": {
+          "min": 280000,
+          "max": 1260000
+        },
+        "area": {
+          "min": 22,
+          "max": 765
+        },
+        "finished": {
+          "isExist": true,
+          "link": "/сданные-новостройки-астаны"
+        },
+        "fondWarranty": {
+          "value": "1",
+          "isExist": true
+        },
+        "custom": [
+          {
+            "filterId": 2,
+            "name": "Отделка квартир",
+            "description": "Отделка квартир",
+            "variants": [
+              {
+                "variantId": 5,
+                "name": "чистовая",
+                "isExist": true
+              },
+              {
+                "variantId": 6,
+                "name": "предчистовая",
+                "isExist": true
+              },
+              {
+                "variantId": 19,
+                "name": "черновая",
+                "isExist": true
+              }
+            ]
+          },
+          {
+            "filterId": 3,
+            "name": "Технология строительства",
+            "description": "Выберите технологию строительства",
+            "variants": [
+              {
+                "variantId": 7,
+                "name": "монолитно-каркасная",
+                "isExist": true
+              },
+              {
+                "variantId": 8,
+                "name": "кирпичная",
+                "isExist": true
+              }
+            ]
+          },
+          {
+            "filterId": 4,
+            "name": "Паркинг",
+            "description": "Выберите паркинг",
+            "variants": [
+              {
+                "variantId": 9,
+                "name": "подземный",
+                "isExist": true
+              },
+              {
+                "variantId": 10,
+                "name": "наземный",
+                "isExist": true
+              },
+              {
+                "variantId": 11,
+                "name": "гостевой",
+                "isExist": true
+              }
+            ]
+          },
+          {
+            "filterId": 7,
+            "name": "Отопление",
+            "description": "Выберите отопление",
+            "variants": [
+              {
+                "variantId": 16,
+                "name": "центральное",
+                "isExist": true
+              },
+              {
+                "variantId": 17,
+                "name": "автономное",
+                "isExist": true
+              }
+            ]
+          },
+          {
+            "filterId": 8,
+            "name": "Окна",
+            "description": "",
+            "variants": [
+              {
+                "variantId": 18,
+                "name": "панорамные",
+                "isExist": true
+              }
+            ]
+          }
+        ],
+        "classes": [
+          {
+            "name": "IV класс (эконом)",
+            "value": "1",
+            "isExist": true,
+            "link": "/новостройки-астаны-эконом-класса"
+          },
+          {
+            "name": "III класс (комфорт)",
+            "value": "4",
+            "isExist": true,
+            "link": "/новостройки-астаны-комфорт-класса"
+          },
+          {
+            "name": "II класс (бизнес)",
+            "value": "2",
+            "isExist": true,
+            "link": "/новостройки-астаны-бизнес-класса"
+          },
+          {
+            "name": "I класс (элит)",
+            "value": "3",
+            "isExist": true,
+            "link": "/новостройки-астаны-элит-класса"
+          }
+        ],
+        "endYears": [
+          {
+            "value": "2026",
+            "isExist": true,
+            "link": "/новостройки-астаны-сдача-2026"
+          },
+          {
+            "value": "2027",
+            "isExist": true,
+            "link": "/новостройки-астаны-сдача-2027"
+          },
+          {
+            "value": "2028+",
+            "isExist": true,
+            "link": "/новостройки-астаны-сдача-2028"
+          }
+        ],
+        "offPlans": [],
+        "purchaseOffers": [
+          {
+            "name": "БАҚЫТТЫ ОТБАСЫ",
+            "value": "mortgage:28",
+            "isExist": false,
+            "link": null
+          },
+          {
+            "name": "Ипотека",
+            "value": "mortgage:all",
+            "isExist": true,
+            "link": "/новостройки-астаны-кредит-от-застройщика"
+          },
+          {
+            "name": "Рассрочка",
+            "value": "installment:all",
+            "isExist": true,
+            "link": "/новостройки-астаны-рассрочка-от-застройщика"
+          },
+          {
+            "name": "7-20-25",
+            "value": "7-20-25:all",
+            "isExist": true,
+            "link": "/новостройки-астаны-7-20-25"
+          },
+          {
+            "name": "Ипотека Отбасы Банка Жилищный заем",
+            "value": "mortgage:1469",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Ипотека Отбасы Банка Промежуточный заем",
+            "value": "mortgage:1470",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Цифровая ипотека (c подтверждением дохода)",
+            "value": "mortgage:1481",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Оңай ипотека (с подтверждением дохода)",
+            "value": "mortgage:1861",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Оңай ипотека (без подтверждения дохода)",
+            "value": "mortgage:1862",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Ипотека от Банк Центр Кредит (с подтверждением дохода)",
+            "value": "mortgage:1859",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Ипотека от Банк Центр Кредит (без подтверждения дохода)",
+            "value": "mortgage:1860",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Цифровая ипотека (без подтверждения дохода)",
+            "value": "mortgage:2475",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Шаңырақ (5-10-20)",
+            "value": "5-10-20:751",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Зелёная ипотека",
+            "value": "mortgage:2129",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Ипотека Отбасы Банка 30/70",
+            "value": "mortgage:2128",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Женская ипотека «ҰМАЙ»",
+            "value": "mortgage:1078",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Ипотека Орда",
+            "value": "mortgage:32",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Свой дом от Отбасы",
+            "value": "mortgage:40",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Жас Отбасы",
+            "value": "mortgage:1245",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "name": "Ипотека от Нурбанк",
+            "value": "mortgage:2280",
+            "isExist": true,
+            "link": null
+          }
+        ],
+        "roomCounts": [
+          {
+            "value": "1",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "value": "2",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "value": "3",
+            "isExist": true,
+            "link": null
+          },
+          {
+            "value": "4+",
+            "isExist": true,
+            "link": null
+          }
+        ],
+        "propertyTypes": [
+          {
+            "value": "studio",
+            "name": "Студия",
+            "isExist": true,
+            "link": null
+          }
+        ]
+      },
+      "initialAvailableFilters": {
+        "price": {
+          "min": 4028200,
+          "max": 2461090000
+        },
+        "priceSqm": {
+          "min": 110000,
+          "max": 3100000
+        },
+        "area": {
+          "min": 21,
+          "max": 793
+        }
+      },
+      "modalFilters": {
+        "classes": [],
+        "custom": {},
+        "endYears": [],
+        "endYear": {
+          "min": null,
+          "max": null
+        },
+        "price": {
+          "min": null,
+          "max": null
+        },
+        "priceSqm": {
+          "min": null,
+          "max": null
+        },
+        "area": {
+          "min": null,
+          "max": null
+        },
+        "landArea": {
+          "min": null,
+          "max": null
+        },
+        "landAreaUnit": "m",
+        "isFinished": false,
+        "isOffPlan": null,
+        "isFondWarranty": false,
+        "purchaseOffers": [],
+        "propertyTypes": [],
+        "roomCounts": [],
+        "houseIds": [],
+        "marketTypes": [],
+        "floorNumber": {
+          "min": null,
+          "max": null
+        },
+        "floorCounts": [],
+        "floorLabels": [],
+        "parkings": [],
+        "isSoldVisible": null,
+        "geoObjectIds": [
+          1
+        ],
+        "onlyCityGeoObjectId": null,
+        "objectId": null,
+        "buildingId": null,
+        "osmHouseId": null,
+        "propertyCategory": null,
+        "entityType": null,
+        "view": null,
+        "propertyCategories": [],
+        "sections": [],
+        "search": null,
+        "hasTerrace": false,
+        "hasBalcony": false,
+        "isFacade": false,
+        "isOpenPlan": false,
+        "isAdsActive": false,
+        "startDate": null,
+        "endDate": null
+      },
+      "isFiltersOpened": false,
+      "isGeoObjectFiltersOpened": false,
+      "geoObjects": {
+        "mainGeoObject": {
+          "geoObjectId": 1,
+          "nominative": "Астана",
+          "genitive": "Астаны",
+          "preposition": "Астане",
+          "category": "city",
+          "isExist": true,
+          "isNearbyLocalityExist": true,
+          "link": "/новостройки-астаны",
+          "color": "",
+          "childrenGeoObjects": []
+        },
+        "childrenGeoObjects": [
+          {
+            "geoObjectId": 21,
+            "nominative": "Алматинский",
+            "genitive": "Алматинского",
+            "preposition": "Алматинском",
+            "category": "district",
+            "isExist": true,
+            "isNearbyLocalityExist": true,
+            "link": "/новостройки-астаны-алматинский-район",
+            "color": "",
+            "childrenGeoObjects": []
+          },
+          {
+            "geoObjectId": 43,
+            "nominative": "Байконурский",
+            "genitive": "Байконур",
+            "preposition": "Байконур",
+            "category": "district",
+            "isExist": true,
+            "isNearbyLocalityExist": true,
+            "link": "/новостройки-астаны-байконурский-район",
+            "color": "",
+            "childrenGeoObjects": []
+          },
+          {
+            "geoObjectId": 22,
+            "nominative": "Есильский",
+            "genitive": "Есильского",
+            "preposition": "Есильском",
+            "category": "district",
+            "isExist": true,
+            "isNearbyLocalityExist": true,
+            "link": "/новостройки-астаны-есильский-район",
+            "color": "",
+            "childrenGeoObjects": []
+          },
+          {
+            "geoObjectId": 29,
+            "nominative": "Левый берег Астаны",
+            "genitive": "Левого берега Астаны",
+            "preposition": "Левом берегу Астаны",
+            "category": "riverside",
+            "isExist": true,
+            "isNearbyLocalityExist": true,
+            "link": "/новостройки-астаны-левый-берег",
+            "color": "",
+            "childrenGeoObjects": []
+          },
+          {
+            "geoObjectId": 55,
+            "nominative": "Нура",
+            "genitive": "Нура",
+            "preposition": "Нура",
+            "category": "district",
+            "isExist": true,
+            "isNearbyLocalityExist": true,
+            "link": "/новостройки-астаны-нуринский-район",
+            "color": "",
+            "childrenGeoObjects": []
+          },
+          {
+            "geoObjectId": 30,
+            "nominative": "Правый берег Астаны",
+            "genitive": "Правого берега Астаны",
+            "preposition": "Правом берегу Астаны",
+            "category": "riverside",
+            "isExist": true,
+            "isNearbyLocalityExist": true,
+            "link": "/новостройки-астаны-правый-берег",
+            "color": "",
+            "childrenGeoObjects": []
+          },
+          {
+            "geoObjectId": 23,
+            "nominative": "Сарыарка",
+            "genitive": "Сарыаркинского",
+            "preposition": "Сарыаркинском",
+            "category": "district",
+            "isExist": true,
+            "isNearbyLocalityExist": true,
+            "link": "/новостройки-астаны-сарыаркинский-район",
+            "color": "",
+            "childrenGeoObjects": []
+          }
+        ]
+      },
+      "pageType": "building",
+      "isCookieSyncDisabled": false,
+      "alwaysAppliedFilters": [],
+      "isMainGeoObjectsFilterEnabled": false,
+      "savedFiltersPageType": "building",
+      "savedFilters": []
+    },
+    "pagination": {
+      "page": {
+        "start": 1,
+        "end": null
+      },
+      "itemsPerPage": 20,
+      "mode": "one-page"
+    },
+    "mapStore": {
+      "selectedBuildingId": null,
+      "selectedOSMHouseId": null,
+      "is3dMode": false,
+      "building3dModel": null,
+      "isSearchByMapMovingEnabled": false,
+      "selectedObjectId": null,
+      "geoObjectCoordinates": [
+        {
+          "geoObjectId": 1,
+          "lat": 51.12709,
+          "lng": 71.42815,
+          "parentGeoObjectId": null,
+          "extremePoints": {
+            "bottom": 50.94942119,
+            "left": 71.26343985,
+            "top": 51.18527572,
+            "right": 71.5728957
+          },
+          "concentratedCenter": {
+            "lat": 51.11316957,
+            "lng": 71.48709541
+          }
+        }
+      ],
+      "isMapboxSupported": false,
+      "isMapboxSupportChecked": false,
+      "realtySection": "sale",
+      "hoveredCardFeature": null
+    }
+  },
+  "mapStore": {
+    "selectedBuildingId": null,
+    "selectedOSMHouseId": null,
+    "is3dMode": false,
+    "building3dModel": null,
+    "isSearchByMapMovingEnabled": false,
+    "selectedObjectId": null,
+    "geoObjectCoordinates": [
+      {
+        "geoObjectId": 1,
+        "lat": 51.12709,
+        "lng": 71.42815,
+        "parentGeoObjectId": null,
+        "extremePoints": {
+          "bottom": 50.94942119,
+          "left": 71.26343985,
+          "top": 51.18527572,
+          "right": 71.5728957
+        },
+        "concentratedCenter": {
+          "lat": 51.11316957,
+          "lng": 71.48709541
+        }
+      }
+    ],
+    "isMapboxSupported": false,
+    "isMapboxSupportChecked": false,
+    "realtySection": "sale",
+    "hoveredCardFeature": null
+  }
+}

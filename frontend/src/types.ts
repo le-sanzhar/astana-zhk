@@ -1,5 +1,3 @@
-// API types matching backend schemas
-
 export type Stage = 'commissioned' | 'under_construction' | 'foundation' | 'planned'
 export type ScoreColor = 'green' | 'yellow' | 'red'
 export type Profile = 'investor' | 'family' | 'student'
@@ -39,6 +37,7 @@ export interface ComplexListItem {
   investor_score: ScoreColor | null
   family_score: ScoreColor | null
   student_score: ScoreColor | null
+  image: string | null
 }
 
 export interface ComplexDetail {
@@ -54,6 +53,9 @@ export interface ComplexDetail {
   total_floors: number | null
   total_apartments: number | null
   krisha_url: string | null
+  image: string | null
+  gallery: string[]
+  price_avg: number | null
   price_snapshots: PriceSnapshot[]
   infrastructure: InfraItem[]
   scores: ScoreItem[]
@@ -63,11 +65,6 @@ export interface ComplexDetail {
 export interface ComplexListResponse {
   total: number
   items: ComplexListItem[]
-}
-
-export interface ScoringResponse {
-  scores: ScoreItem[]
-  ai_summary: string | null
 }
 
 export interface CompareResponse {

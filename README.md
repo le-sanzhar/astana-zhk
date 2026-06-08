@@ -223,12 +223,6 @@ The project deploys as **two separate Vercel projects** — API and Frontend.
 - **Two-stage scrape** — catalog (prices, daily) + detail pages (galleries, once) run separately
 
 ---
-
-## License
-
-MIT
-
----
 ---
 
 # 🏙️ AstanaZhK — Анализатор новостроек Астаны
@@ -443,8 +437,3 @@ python -m scraper.main             # Запуск + планировщик
 - **`window.INITIAL_STATE`** — весь JSON korter.kz в SSR, Playwright не нужен
 - **Двухэтапный скрейп** — каталог (цены, ежедневно) + детали (галереи, однократно)
 
----
-
-## Лицензия
-
-MIT

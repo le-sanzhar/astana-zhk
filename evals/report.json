@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "date": "2026-06-08T06:03:38.476055",
+    "model": "groq/llama-3.3-70b-versatile",
+    "n_evaluated": 20,
+    "pass_threshold": 3.5
+  },
+  "summary": {
+    "pass_rate_pct": 80.0,
+    "avg_score": 3.91,
+    "per_criterion": {
+      "accuracy": 4.55,
+      "specificity": 3.65,
+      "actionability": 3.6,
+      "no_hallucination": 4.25,
+      "conciseness": 3.5
+    }
+  },
+  "results": [
+    {
+      "complex_id": 3749,
+      "name": "ЖК Vivaldi",
+      "district": "Алматинский",
+      "stage": "commissioned",
+      "price_avg": 1250000.0,
+      "summary": "Жилой комплекс Vivaldi, расположенный в Алматинском районе Астаны и построенный компанией BI Group, представляет собой привлекательный вариант для покупателей, ищущих качественное и комфортное жилье. Ключевым преимуществом этого комплекса является его местоположение, которое обеспечивает удобный доступ к основным транспортным артериям и социальной инфраструктуре города. Однако, потенциальные покупатели должны учитывать риски, связанные с отсутствием информации о сроке сдачи объекта, что может повлиять на процесс планирования и принятия решений. Сравнивая с рынком, цена в 1,250,000 ₸ за квадратный метр находится на среднем уровне, что делает ЖК Vivaldi конкурентоспособным предложением для тех, кто ищет качественное жилье в этом районе.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 3,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 4
+      },
+      "avg_score": 3.8,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the district, developer, and price. It also provides concrete information that can help a buyer make a decision. However, it lacks specificity in some areas, such as not mentioning the exact address or construction stage. Additionally, the summary does not hallucinate any facts not present in the source data, but it does make some general statements about the market and the complex's competitiveness. The summary is generally concise, but could be more direct in some areas."
+    },
+    {
+      "complex_id": 4102,
+      "name": "ЖК Salman City",
+      "district": "Нура",
+      "stage": "commissioned",
+      "price_avg": 418000.0,
+      "summary": "Жилой комплекс Salman City, расположенный в районе Нура и построенный компанией Ulytau Group, представляет собой уже сданный в эксплуатацию объект недвижимости. Ключевым преимуществом для покупателя является готовность объекта к заселению, что исключает риски, связанные с задержками сдачи. Однако, учитывая среднюю цену за квадратный метр в размере 418 000 тенге, покупатели могут столкнуться с рисками переплаты, поскольку этот показатель несколько выше среднерыночного значения для данного района. В сравнении с другими объектами на рынке недвижимости Астаны, Salman City может быть привлекательным вариантом для семей и инвесторов, ищущих готовое жилье в относительно развитом районе, но требует тщательного анализа потенциальной доходности и сравнения с другими предложениями на рынке.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 5,
+        "conciseness": 4
+      },
+      "avg_score": 4.4,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It uses concrete numbers, such as the average price per square meter, to support its claims. The summary provides enough information for a buyer to make a decision, but could be more concise. There are no invented facts, and the summary stays true to the source data."
+    },
+    {
+      "complex_id": 2517,
+      "name": "ЖК Burabay 2",
+      "district": "Алматинский",
+      "stage": "commissioned",
+      "price_avg": 440000.0,
+      "summary": "Жилой комплекс \"Burabay 2\", расположенный в Алматинском районе Астаны, представляет собой привлекательный вариант для покупателей, ищущих качественное и комфортное жилье. Ключевое преимущество этого комплекса заключается в его готовности к заселению, что позволяет покупателям сразу же начать использовать свою недвижимость. Однако, отсутствие информации о сроке сдачи и скоринге инвестора, семьи и студента может создать определенные риски для потенциальных покупателей. Сравнивая с рынком, цена в 440 000 ₸ за квадратный метр выглядит конкурентоспособно, но покупателям все равно следует тщательно оценить все \"за\" и \"против\" перед принятием решения. В целом, ЖК \"Burabay 2\" может быть хорошим выбором для тех, кто ценит готовое жилье и комфортное расположение.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 5,
+        "conciseness": 4
+      },
+      "avg_score": 4.4,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It uses concrete numbers, such as the price per square meter, and provides a clear evaluation of the complex. The summary does not introduce any invented facts not present in the source data. However, it could be more concise and directly actionable, as some sentences provide general advice rather than specific guidance."
+    },
+    {
+      "complex_id": 4369,
+      "name": "ЖК TŪLĞA",
+      "district": "Нура",
+      "stage": "under_construction",
+      "price_avg": 561000.0,
+      "summary": "Жилой комплекс TŪLĞA, расположенный в районе Нура, предлагает покупателям ключевое преимущество в виде перспективного расположения с потенциалом будущего развития инфраструктуры. Однако, учитывая стадии \"under_construction\" и отсутствие конкретной даты сдачи, покупатели должны быть осведомлены о рисках, связанных с неопределенностью сроков завершения строительства. По сравнению с рынком, цена в 561,000 ₸ за квадратный метр выглядит конкурентоспособно, особенно учитывая репутацию застройщика BI Group. Для инвесторов, семей и студентов этот комплекс может представлять разный уровень привлекательности, в зависимости от их приоритетов и потребностей, но общая привлекательность проекта будет зависеть от успешной реализации и своевременной сдачи объекта.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 5,
+        "conciseness": 4
+      },
+      "avg_score": 4.4,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It uses concrete numbers and facts, such as the price of 561,000 ₸ per square meter. The summary provides enough information for a buyer to make a decision, considering the pros and cons of the project. There are no invented facts, and the summary is clear and to-the-point, although it could be slightly more concise."
+    },
+    {
+      "complex_id": 3215,
+      "name": "ЖК Azure",
+      "district": "Алматинский",
+      "stage": "under_construction",
+      "price_avg": null,
+      "summary": "Жилой комплекс Azure, расположенный в Алматинском районе Астаны и разрабатываемый компанией Qazaq Stroy, представляет собой перспективный проект на стадии строительства. Ключевым преимуществом для покупателя является потенциально высокая ликвидность недвижимости после сдачи объекта, учитывая его расположение в одном из наиболее динамично развивающихся районов города. Однако отсутствие информации о цене за квадратный метр и сроках сдачи объекта создает определенные риски для инвесторов, поскольку затрудняет оценку потенциальной доходности и сроков окупаемости вложений. Сравнивая с рынком, можно отметить, что проекты в Алматинском районе пользуются высоким спросом среди семей и молодых специалистов, что может сделать ЖК Azure привлекательным вариантом для тех, кто ищет комфортное и современное жилье в перспективном районе.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 2,
+        "actionability": 3,
+        "no_hallucination": 4,
+        "conciseness": 4
+      },
+      "avg_score": 3.4,
+      "label": "borderline",
+      "reasoning": "The summary accurately reflects the source data in terms of district, stage, and developer. However, it lacks specificity due to the absence of concrete numbers such as price and completion date. The summary provides some actionable insights but is limited by the lack of specific data. It does not introduce hallucinated facts but makes some general statements about the market and demand. The summary is generally concise but could be more effective with more specific information."
+    },
+    {
+      "complex_id": 3785,
+      "name": "ЖК Sani City",
+      "district": "Нура",
+      "stage": "commissioned",
+      "price_avg": 450000.0,
+      "summary": "Жилой комплекс \"Sani City\", расположенный в районе Нура, представляет собой привлекательную возможность для покупателей, ищущих качественное и современное жилье. Ключевое преимущество этого комплекса заключается в его готовности к заселению, что позволяет покупателям сразу же въехать в свои новые квартиры без необходимости ожидания сдачи объекта. Однако, отсутствие информации о сроке сдачи и скоринге инвестора, семьи и студента может создать определенные риски для потенциальных покупателей. По сравнению с рынком, цена в 450 000 ₸ за квадратный метр является конкурентной, но покупателям все равно необходимо тщательно оценить все \"за\" и \"против\" перед принятием решения о покупке. В целом, ЖК \"Sani City\" может быть хорошим выбором для тех, кто ценит комфорт и современность, но требует более детального анализа для принятия обоснованного решения.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 4,
+        "actionability": 3,
+        "no_hallucination": 4,
+        "conciseness": 4
+      },
+      "avg_score": 3.8,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, and construction stage. It also provides specific numbers and facts, making it informative. However, the actionability is limited as the summary does not provide a clear recommendation or enough information for the buyer to make a decision solely based on this text. The summary does not introduce invented facts, but it does make some general statements about the market and the buyer's needs that are not directly supported by the source data. The text is generally concise and clear, but some sentences could be more direct."
+    },
+    {
+      "complex_id": 4181,
+      "name": "Parkland",
+      "district": "Сарыарка",
+      "stage": "under_construction",
+      "price_avg": 475000.0,
+      "summary": "Жилой комплекс Parkland, расположенный в районе Сарыарка и строящийся компанией BI Group, представляет собой привлекательный вариант для покупателей, ищущих современное и комфортное жилье. Ключевым преимуществом для покупателя является близость к центру города и перспективное развитие инфраструктуры в этом районе, что потенциально может увеличить стоимость недвижимости в будущем. Однако, покупатели должны учитывать риски, связанные с отсутствием информации о сроке сдачи объекта, что может повлиять на процесс планирования и ожидания. По сравнению с рынком, цена в 475 000 тенге за квадратный метр находится в средней или чуть выше средней планки, что делает его конкурентоспособным вариантом для тех, кто ищет качественное жилье в перспективном районе. Скоринг для различных категорий покупателей (инвестор, семья, студент) будет зависеть от их конкретных потребностей и приоритетов, но в целом, Parkland имеет потенциал стать привлекательным вариантом для тех, кто ценит современность и перспективность.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 4.0,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It also provides concrete numbers and facts, making it specific. However, the summary could be more concise and to-the-point, and some statements, such as the potential increase in property value, are not directly supported by the source data, which slightly detracts from its actionability and adherence to the no_hallucination criterion."
+    },
+    {
+      "complex_id": 2998,
+      "name": "GreenLine. Prima",
+      "district": "Нура",
+      "stage": "under_construction",
+      "price_avg": 994000.0,
+      "summary": "Жилой комплекс GreenLine. Prima, расположенный в районе Нура и строящийся компанией BI Group, предлагает ключевое преимущество для покупателя - экологически чистую и комфортную среду обитания, что особенно важно для семей с детьми. Однако отсутствие информации о сроках сдачи объекта и неопределенность с ценой могут представлять определенные риски для инвесторов. Сравнивая с рынком, цена в 994 000 тенге за квадратный метр выглядит конкурентоспособно, особенно учитывая репутацию застройщика. Для семей этот комплекс может быть привлекательным вариантом, но для студентов и инвесторов он может быть менее привлекательным из-за отсутствия четкой информации о сроках сдачи и потенциальных рисках.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 4,
+        "actionability": 3,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 3.6,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It also uses concrete numbers and facts, such as the price per square meter. However, the summary could be more concise and to-the-point, and some language is vague, such as the mention of 'экологически чистую и комфортную среду обитания' which is not present in the source data. Additionally, the summary does not provide a clear call to action for the buyer, making it less actionable."
+    },
+    {
+      "complex_id": 2643,
+      "name": "Таунхаусы Nura Elite",
+      "district": "Есильский",
+      "stage": "commissioned",
+      "price_avg": 500000.0,
+      "summary": "Жилой комплекс \"Таунхаусы Nura Elite\" от застройщика MM Group, расположенный в Есильском районе Астаны, представляет собой уникальную возможность для покупателей приобрести современное и комфортное жилье. Ключевое преимущество этого комплекса заключается в его расположении в престижном районе, что обеспечивает удобный доступ к основным объектам инфраструктуры города. Однако, отсутствие информации о сроках сдачи объекта может представлять собой определенный риск для потенциальных покупателей. По сравнению с другими предложениями на рынке недвижимости Астаны, цена в 500 000 тенге за квадратный метр выглядит конкурентоспособной, особенно учитывая репутацию застройщика и качество строительства. В целом, этот комплекс может быть привлекательным вариантом для семей и инвесторов, ищущих надежную и перспективную недвижимость в столице.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 3.8,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It also provides specific numbers and facts, making it actionable for potential buyers. However, it does not strictly adhere to the source data, as it mentions the price per square meter, which is not present in the source data. Additionally, the summary could be more concise, as it includes some filler language."
+    },
+    {
+      "complex_id": 1676,
+      "name": "Capital Park. Flowers",
+      "district": "Есильский",
+      "stage": "commissioned",
+      "price_avg": null,
+      "summary": "Жилой комплекс \"Capital Park. Flowers\", расположенный в Есильском районе Астаны и построенный компанией BI Group, представляет собой привлекательный вариант для покупателей, ищущих качественное и комфортное жилье. Ключевым преимуществом этого комплекса является его местоположение в одном из наиболее перспективных и развивающихся районов города, что обеспечивает удобный доступ к основным объектам инфраструктуры и транспортным узлам. Однако, отсутствие информации о цене за квадратный метр и сроке сдачи объекта может представлять определенный риск для потенциальных покупателей, поскольку это затрудняет оценку инвестиционной привлекательности проекта. Сравнивая с другими проектами на рынке недвижимости Астаны, \"Capital Park. Flowers\" может конкурировать с другими жилыми комплексами в Есильском районе, но более детальный анализ рынка и сравнение с конкретными проектами потребует дополнительной информации.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 2,
+        "actionability": 2,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 3.0,
+      "label": "borderline",
+      "reasoning": "The summary accurately mentions the district, stage, and developer, but lacks concrete numbers and facts about the project, such as price and completion date. It also does not provide enough information for a buyer to make a decision. The summary does not invent new facts, but it does make some general statements about the project's location and competitiveness. The text is somewhat concise, but could be more direct and to-the-point."
+    },
+    {
+      "complex_id": 3810,
+      "name": "ЖК Tumar Club",
+      "district": "Нура",
+      "stage": "under_construction",
+      "price_avg": 505000.0,
+      "summary": "ЖК Tumar Club, расположенный в районе Нура, представляет собой перспективный проект от застройщика Tumar Group. Ключевым преимуществом для покупателя является возможность приобретения жилья в престижном районе с потенциалом долгосрочного роста стоимости. Однако отсутствие информации о сроке сдачи и скоринге инвестора, семьи и студента вызывает определенные риски, особенно в контексте сравнения с другими проектами на рынке Астаны, где многие застройщики уже имеют опыт успешной реализации подобных проектов и могут предложить более прозрачные и привлекательные условия. По сравнению с рынком, цена в 505,000 ₸ за квадратный метр выглядит конкурентоспособно, но покупателям следует тщательно оценить все факторы, прежде чем принять решение. В целом, ЖК Tumar Club может быть интересным вариантом для тех, кто готов ждать и готов принять на себя определенные риски в обмен на потенциальную долгосрочную выгоду.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 4.0,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It also provides specific numbers and facts, such as the price per square meter. However, the summary could be more concise and to-the-point, and some language is vague, such as the discussion of 'определенные риски' and 'потенциальная долгосрочная выгода'. Additionally, the summary introduces some information not present in the source data, such as the comparison to other projects on the market in Astana."
+    },
+    {
+      "complex_id": 126,
+      "name": "ЖК Assyl Tau",
+      "district": "Есильский",
+      "stage": "commissioned",
+      "price_avg": 460000.0,
+      "summary": "Жилой комплекс Assyl Tau, расположенный в Есильском районе Астаны, представляет собой уже сданный в эксплуатацию проект застройщика NAK. Одним из ключевых преимуществ для покупателя является готовность объекта, что исключает риски, связанные с задержками сдачи. Однако, учитывая цену в 460 000 тенге за квадратный метр, покупатели должны тщательно оценить соотношение цены и качества, поскольку на рынке Астаны можно найти аналогичные предложения по более привлекательным ценам. Риски для инвесторов могут быть связаны с потенциальной конкуренцией со стороны новых проектов в этом районе, что может повлиять на доходность инвестиций. Для семей и студентов этот комплекс может быть привлекательным вариантом из-за своего расположения и готовности к заселению, но окончательная оценка должна быть основана на индивидуальных потребностях и бюджете.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 5,
+        "actionability": 4,
+        "no_hallucination": 5,
+        "conciseness": 4
+      },
+      "avg_score": 4.6,
+      "label": "excellent",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It uses concrete numbers and facts, making it specific and actionable for potential buyers. The summary does not introduce any invented facts not present in the source data, demonstrating a high level of accuracy and adherence to the provided information. However, the summary could be more concise, as some sentences are somewhat lengthy and contain filler language. Additionally, while the summary provides a good overview, it may not be entirely actionable for all types of buyers, as it primarily focuses on the pros and cons for families and students."
+    },
+    {
+      "complex_id": 4255,
+      "name": "ЖК Qaiyndy 3",
+      "district": "Нура",
+      "stage": "commissioned",
+      "price_avg": 395000.0,
+      "summary": "Жилой комплекс Qaiyndy 3, расположенный в районе Нура Астаны, представляет собой привлекательный вариант для покупателей, ищущих качественное жилье от известного застройщика Svoy Dom. Ключевым преимуществом этого комплекса является его готовность к заселению, что позволяет покупателям сразу же начать использовать свою недвижимость. Однако, при отсутствии информации о сроке сдачи и скорингов инвестора, семьи и студента, потенциальные покупатели должны тщательно оценить риски, связанные с долгосрочной перспективой развития района и потенциальной конкуренции на рынке. По сравнению с другими предложениями на рынке Астаны, цена в 395,000 ₸ за квадратный метр выглядит конкурентоспособно, но покупателям следует учитывать все факторы, влияющие на стоимость недвижимости, включая местоположение, качество строительства и доступность инфраструктуры.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 4.0,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It uses concrete numbers and facts, making it specific. The summary provides enough information for a buyer to make a decision, but it could be more concise. The mention of 'сроке сдачи и скорингов инвестора, семьи и студента' is not present in the source data, which slightly detracts from the 'no_hallucination' criterion."
+    },
+    {
+      "complex_id": 3876,
+      "name": "ЖК Eva",
+      "district": "Нура",
+      "stage": "commissioned",
+      "price_avg": 550000.0,
+      "summary": "Жилой комплекс \"Eva\" от застройщика ESTA Group, расположенный в районе Нура, представляет собой уже сданный в эксплуатацию проект. Ключевым преимуществом для покупателя является возможность немедленного заселения, что особенно привлекательно для тех, кто ищет готовое жилье. Однако, отсутствие информации о сроке сдачи и скоринге инвестора, семьи и студента может нести определенные риски для потенциальных покупателей. По сравнению с рынком, цена в 550 000 тенге за квадратный метр выглядит конкурентоспособно, но окончательная оценка зависит от конкретных потребностей и приоритетов покупателя. В целом, ЖК \"Eva\" может быть интересным вариантом для тех, кто ценит готовность объекта и готов принять на себя потенциальные риски.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 4
+      },
+      "avg_score": 4.2,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It uses concrete numbers, such as the price per square meter, and provides a clear overview of the project. However, it could be more concise and direct, and some phrases, like 'может нести определенные риски', are somewhat vague. Additionally, the summary introduces the idea of 'скоринге инвестора, семьи и студента', which is not present in the source data, but it does not invent any critical facts."
+    },
+    {
+      "complex_id": 3003,
+      "name": "ЖК Onyx Comfort",
+      "district": "Нура",
+      "stage": "under_construction",
+      "price_avg": 320000.0,
+      "summary": "Жилой комплекс Onyx Comfort, расположенный в районе Нура, представляет собой перспективную возможность для покупателей, ищущих современное и комфортное жилье. Ключевое преимущество этого комплекса заключается в его расположении, которое обеспечивает близость к основным транспортным артериям и социальной инфраструктуре, что делает его привлекательным вариантом для семей и молодых специалистов. Однако, отсутствие информации о сроке сдачи и скоринге инвестора, семьи и студента может нести определенные риски для потенциальных покупателей. По сравнению с рынком, цена в 320 000 ₸ за квадратный метр находится в средней ценовой категории, что делает его конкурентоспособным вариантом среди других жилых комплексов в Астане. В целом, ЖК Onyx Comfort имеет потенциал стать привлекательным вариантом для тех, кто ценит комфорт и доступность, но покупателям следует тщательно оценить все риски и факторы перед принятием решения.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 4,
+        "actionability": 3,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 3.6,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, and developer. It also provides specific numbers and facts, such as the price per square meter. However, the summary could be more concise and to-the-point, and some language is vague, such as the mention of 'perspektivnuyu vozmozhnost' without clear explanation. Additionally, the summary does not provide a clear call to action for the buyer, and some risks are mentioned without clear explanation or data to support them."
+    },
+    {
+      "complex_id": 9,
+      "name": "ЖК Оберег",
+      "district": "Алматинский",
+      "stage": "under_construction",
+      "price_avg": null,
+      "summary": "Жилой комплекс \"Оберег\", расположенный в Алматинском районе Астаны, представляет собой перспективный проект от застройщика УНКЦ Оберег. Ключевым преимуществом для покупателя является возможность приобретения жилья в стадии строительства, что может обеспечить более низкую цену по сравнению с готовыми объектами. Однако отсутствие информации о цене за квадратный метр и сроке сдачи объекта может нести определенные риски для потенциальных покупателей. Сравнивая с рынком, ЖК \"Оберег\" может быть привлекательным вариантом для тех, кто ищет жилье в перспективном районе с потенциалом роста стоимости недвижимости. Однако без дополнительной информации о скоринге инвестора, семьи и студента сложно дать полную оценку проекта.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 2,
+        "actionability": 3,
+        "no_hallucination": 4,
+        "conciseness": 4
+      },
+      "avg_score": 3.4,
+      "label": "borderline",
+      "reasoning": "The summary accurately mentions the district, stage, and developer, but lacks concrete numbers and facts about the project, such as price and completion date. It also introduces some vague language about the project's potential and risks, which may not be directly supported by the source data. However, the summary does provide some useful insights and context for a potential buyer, and is generally well-structured and easy to follow."
+    },
+    {
+      "complex_id": 3234,
+      "name": "Клубный дом Triumph Exclusive",
+      "district": "Есильский",
+      "stage": "commissioned",
+      "price_avg": 772000.0,
+      "summary": "Жилой комплекс \"Клубный дом Triumph Exclusive\", расположенный в Есильском районе Астаны, представляет собой привлекательный вариант для покупателей, ищущих комфортное и эксклюзивное жилье. Ключевым преимуществом этого комплекса является его расположение в престижном районе, что обеспечивает удобный доступ к основным объектам инфраструктуры города. Однако, потенциальные покупатели должны учитывать риски, связанные с отсутствием информации о сроке сдачи объекта, что может повлиять на процесс планирования и принятия решений. Сравнивая с рынком, цена за квадратный метр в 772 000 тенге выглядит конкурентоспособно, особенно учитывая высокий уровень комфорта и эксклюзивности, предлагаемый комплексом. В целом, \"Клубный дом Triumph Exclusive\" может быть интересным вариантом для семей и инвесторов, ищущих качественное и престижное жилье в Астане.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 5,
+        "conciseness": 4
+      },
+      "avg_score": 4.4,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, and developer. It also provides concrete numbers and facts, making it specific and actionable for potential buyers. The summary does not introduce any invented facts, demonstrating a high level of accuracy and adherence to the source data. However, the summary could be more concise, as some sentences are wordy and contain filler language. Additionally, the summary assumes the complex is in Astana, which is not explicitly stated in the source data, but it can be inferred from the context."
+    },
+    {
+      "complex_id": 1592,
+      "name": "ЖК Boston Comfort House 2",
+      "district": "Нура",
+      "stage": "commissioned",
+      "price_avg": 285000.0,
+      "summary": "Жилой комплекс Boston Comfort House 2, расположенный в районе Нура, представляет собой привлекательный вариант для покупателей, ищущих комфортное и современное жилье. Ключевое преимущество этого комплекса заключается в его готовности к заселению, что позволяет покупателям сразу же приступить к проживанию или сдать квартиру в аренду. Однако, отсутствие информации о сроке сдачи и скоринге инвестора, семьи и студента может нести определенные риски, особенно для инвесторов, ориентированных на долгосрочную перспективу. По сравнению с рынком, цена в 285 000 ₸ за квадратный метр является конкурентной, но покупателям следует тщательно оценить все \"за\" и \"против\" перед принятием решения. В целом, Boston Comfort House 2 может быть хорошим выбором для тех, кто ценит готовое жилье и комфортное расположение в районе Нура.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 4,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 4.0,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It also provides concrete numbers and facts, making it specific and actionable for buyers. However, it introduces some vague language and invented facts, such as the comparison to the market and the mention of investor, family, and student scoring, which are not present in the source data. The summary is mostly concise but could be more direct and to-the-point."
+    },
+    {
+      "complex_id": 4247,
+      "name": "ЖК Tamasha 2",
+      "district": "Алматинский",
+      "stage": "commissioned",
+      "price_avg": 451000.0,
+      "summary": "Жилой комплекс Tamasha 2, расположенный в Алматинском районе Астаны, представляет собой привлекательный вариант для покупателей, ищущих качественное жилье в относительно доступной ценовой категории. Ключевое преимущество этого комплекса заключается в его завершенной стадии строительства, что минимизирует риски, связанные с срывом сроков сдачи или финансовыми проблемами застройщика. Однако потенциальные покупатели должны учитывать относительно высокую цену за квадратный метр (451,000 ₸), которая может быть выше средней цены на рынке Астаны. Сравнивая с другими проектами в этом районе, Tamasha 2 может быть привлекательным вариантом для семей и инвесторов, но его ценовая политика может быть менее доступной для студентов или покупателей с ограниченным бюджетом. Риски, связанные с покупкой в этом комплексе, включают потенциальную перегруженность инфраструктуры в Алматинском районе и необходимость тщательного анализа финансовой стабильности застройщика Svoy Dom.",
+      "scores": {
+        "accuracy": 5,
+        "specificity": 5,
+        "actionability": 4,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 4.2,
+      "label": "pass",
+      "reasoning": "The summary accurately reflects the source data, including the price, district, stage, and developer. It also provides specific numbers and facts, making it informative. However, the summary could be more concise and to-the-point. Additionally, some statements, such as the comparison to the average market price and the potential risks, are not directly supported by the source data, which slightly detracts from the no_hallucination criterion."
+    },
+    {
+      "complex_id": 2670,
+      "name": "ЖК Жулдыз",
+      "district": "Алматинский",
+      "stage": "commissioned",
+      "price_avg": null,
+      "summary": "Жилой комплекс \"Жулдыз\", расположенный в Алматинском районе Астаны, представляет собой привлекательный вариант для покупателей, ищущих качественное и уже сданное в эксплуатацию жилье. Ключевым преимуществом для покупателя является тот факт, что комплекс уже сдан, что исключает риски, связанные с задержками сдачи объекта. Однако, отсутствие информации о цене и скоринге инвестора, семьи и студента не позволяет сделать полную оценку проекта. Сравнивая с рынком, можно отметить, что ЖК \"Жулдыз\" может быть конкурентоспособным вариантом, но покупателям необходимо тщательно оценить все \"за\" и \"против\" и изучить рынок, чтобы принять обоснованное решение. Риски, связанные с покупкой в этом комплексе, могут включать потенциальные проблемы с инфраструктурой и коммунальными услугами, поэтому покупателям следует провести тщательную проверку перед покупкой.",
+      "scores": {
+        "accuracy": 4,
+        "specificity": 2,
+        "actionability": 3,
+        "no_hallucination": 4,
+        "conciseness": 3
+      },
+      "avg_score": 3.2,
+      "label": "borderline",
+      "reasoning": "The summary accurately mentions the district, stage, and developer, but lacks concrete numbers and facts. It does not provide enough information for the buyer to make a decision and includes some vague language. The summary does not invent new facts, but also does not provide a clear and concise evaluation of the project."
+    }
+  ]
+}

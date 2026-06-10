@@ -1,0 +1,100 @@
+{
+  "name": "🏙️ AstanaZhK Telegram Bot",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": ["message"],
+        "additionalFields": {}
+      },
+      "id": "node-tg-trigger",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.1,
+      "position": [200, 300],
+      "webhookId": "astanazhk-tg-hook"
+    },
+    {
+      "parameters": {
+        "url": "https://astana-zhk.vercel.app/api/v1/complexes",
+        "queryParameters": {
+          "parameters": [
+            { "name": "limit", "value": "100" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "node-fetch",
+      "name": "Fetch Complexes",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [440, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const trigger = $('Telegram Trigger').first().json;\nconst userMsg = trigger.message?.text || '';\nconst chatId = trigger.message?.chat?.id;\nconst items = $input.first().json.items || [];\n\nconst list = items.slice(0, 50).map(c =>\n  `${c.name} | ${c.district} | ${(c.price_avg||0).toLocaleString()} ₸/м² | ${c.construction_stage} | инв:${c.investor_score} сем:${c.family_score} stu:${c.student_score}`\n).join('\\n');\n\nconst requestBody = {\n  model: 'llama-3.3-70b-versatile',\n  messages: [\n    {\n      role: 'system',\n      content: 'Ты — ИИ-консультант по первичной недвижимости Астаны. Отвечай кратко на русском. Используй эмодзи. Не более 4 пунктов. Опирайся только на предоставленные данные.'\n    },\n    {\n      role: 'user',\n      content: `Вопрос: ${userMsg}\\n\\nДоступные ЖК (всего ${items.length}):\\n${list}`\n    }\n  ],\n  max_tokens: 600,\n  temperature: 0.4\n};\n\nreturn [{ json: { chatId, userMsg, requestBody } }];"
+      },
+      "id": "node-code",
+      "name": "Prepare Request",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [660, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_GROQ_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify($json.requestBody) }}",
+        "options": {}
+      },
+      "id": "node-groq",
+      "name": "Ask Groq",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [880, 300]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Prepare Request').first().json.chatId }}",
+        "text": "={{ $json.choices[0].message.content }}",
+        "additionalFields": {
+          "appendAttribution": false
+        }
+      },
+      "id": "node-tg-send",
+      "name": "Send Reply",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [1100, 300]
+    }
+  ],
+  "connections": {
+    "Telegram Trigger": {
+      "main": [[{ "node": "Fetch Complexes", "type": "main", "index": 0 }]]
+    },
+    "Fetch Complexes": {
+      "main": [[{ "node": "Prepare Request", "type": "main", "index": 0 }]]
+    },
+    "Prepare Request": {
+      "main": [[{ "node": "Ask Groq", "type": "main", "index": 0 }]]
+    },
+    "Ask Groq": {
+      "main": [[{ "node": "Send Reply", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "id": "astanazhk-tg-bot-v1",
+  "meta": { "templateCredsSetupCompleted": false }
+}

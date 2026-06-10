@@ -20,7 +20,7 @@
 | Feature | Description |
 |---|---|
 | **korter.kz scraper** | Collects 256+ residential complexes: price/m², construction stage, developer, coordinates, photo gallery |
-| **4 buyer profiles** | Investor / Family / Student / Flipper — each with its own scoring algorithm |
+| **4 buyer profiles** | Investor / Family / Student / Flipper — continuous percentile-based scoring (CAGR, IRR, rental yield, infrastructure proximity) |
 | **Price monitoring** | Daily price snapshots, alerts on ≥ 3% change |
 | **Flip calculator** | ARV, net profit, ROI, annualized return, 70% rule — based on construction stage and renovation tier |
 | **Map** | Color-coded markers by score, callout with price and stage |
@@ -47,8 +47,13 @@
 
 ### ⚡ API (`/scraper/api.py`)
 - **FastAPI** on top of SQLite — serves the mobile app
-- Full scoring algorithm implementation in Python (mirrors TypeScript logic)
 - CORS, filtering by district / stage / price
+
+### 🧠 Scoring Engine (`/scraper/scoring.py`)
+- Continuous percentile-based scoring — no discrete thresholds
+- Factors: annualized CAGR (volatility-adjusted), momentum, stage premium, rental yield, developer reliability, IRR, haversine infrastructure distance
+- Returns `score_value` (0–10), `confidence`, `top_reason`, `risk_flag`, `breakdown` per profile
+- `MarketStats` built once at startup across all 256 complexes for percentile ranking
 
 ### 🖥️ Frontend (`/frontend`) — web version
 - React + Vite + TypeScript + PWA
@@ -81,14 +86,17 @@ scraper/astana_zhk.db      ← SQLite (complexes, price_snapshots, price_alerts)
 
 ## Scoring
 
-Each complex gets a `green / yellow / red` rating per profile:
+Each complex gets a `green / yellow / red` tone, a numeric `score_value` (0–10), and `confidence` per profile.  
+All factors are continuous (sigmoid / piecewise-linear), ranked as percentiles across the full dataset.
 
-| Profile | Factors |
+| Profile | Key Factors |
 |---|---|
-| **Investor** | Price growth (50%) + construction stage (30%) + district (20%) |
-| **Family** | Completion stage (40%) + schools/parks (8%) + price (10%) |
-| **Student** | Price/m² (40%) + transport (5%) + stage (25%) |
-| **Flipper** | Stage (35%) + price momentum (25%) + discount to market (20%) + liquidity (20%) |
+| **Investor** | Risk-adjusted CAGR · momentum · stage premium · rental yield · developer reliability · liquidity |
+| **Family** | Completion risk · mortgage affordability · proximity to city center & malls · neighbourhood price stability |
+| **Student** | Affordability percentile · studio entry cost · distance to ENU/KBTU · move-in readiness |
+| **Flipper** | Discount to district median · stage timing · capex estimate · IRR · segment liquidity |
+
+API response includes `top_reason` and `risk_flag` per profile for drill-down UI.
 
 ---
 
@@ -308,14 +316,17 @@ scraper/astana_zhk.db      ← SQLite (complexes, price_snapshots, price_alerts)
 
 ## Скоринг
 
-Каждый ЖК получает оценку `green / yellow / red` по профилю:
+Каждый ЖК получает тон `green / yellow / red`, числовой `score_value` (0–10) и `confidence` по каждому профилю.  
+Все факторы непрерывные (сигмоиды / кусочно-линейные), ранжируются перцентильно по всему датасету.
 
-| Профиль | Факторы |
+| Профиль | Ключевые факторы |
 |---|---|
-| **Инвестор** | Рост цены (50%) + стадия стройки (30%) + район (20%) |
-| **Семья** | Стадия готовности (40%) + школы/парки (8%) + цена (10%) |
-| **Студент** | Цена/м² (40%) + транспорт (5%) + стадия (25%) |
-| **Флиппер** | Стадия (35%) + динамика цены (25%) + дисконт к рынку (20%) + ликвидность (20%) |
+| **Инвестор** | CAGR с поправкой на волатильность · momentum · апсайд стадии · rental yield · надёжность застройщика · ликвидность |
+| **Семья** | Риск недостроя · доступность ипотеки · близость к центру и ТРЦ · стабильность цен в районе |
+| **Студент** | Перцентиль доступности · стоимость студии · расстояние до ЕНУ/КБТУ · готовность к заселению |
+| **Флиппер** | Дисконт к медиане района · тайминг апсайда · capex ремонта · IRR · ликвидность сегмента |
+
+API возвращает `top_reason` и `risk_flag` по каждому профилю для drill-down в UI.
 
 ---
 

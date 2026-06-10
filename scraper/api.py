@@ -18,7 +18,7 @@ from typing import Optional
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-from .scoring import MarketStats, ScoreResult, build_market_stats, score_complex
+from .scoring import MarketStats, ScoreResult, build_market_stats, get_scoring_info, score_complex
 
 DB_PATH = Path(__file__).parent / "astana_zhk.db"
 
@@ -234,6 +234,11 @@ def get_complex(korter_id: int):
     if not row:
         raise HTTPException(404, "Комплекс не найден")
     return _build_item(row, all_complexes, stats)
+
+
+@app.get("/api/v1/scoring-info")
+def scoring_info():
+    return get_scoring_info()
 
 
 @app.get("/api/v1/stats")

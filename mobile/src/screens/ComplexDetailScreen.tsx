@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   Dimensions,
   Image,
@@ -12,7 +12,8 @@ import {
 import { LineChart } from 'react-native-chart-kit';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { ComplexItem, fetchComplexDetail } from '../api';
+import { BuyerProfile as BP, ComplexItem, ScoringInfo, fetchComplexDetail, fetchScoringInfo } from '../api';
+import ScoringInfoModal from '../components/ScoringInfoModal';
 import { theme } from '../theme';
 import {
   ArrowLeft, Bath, BedDouble, Bus, CalendarDays, ExternalLink,
@@ -54,6 +55,8 @@ export default function ComplexDetailScreen({ route, navigation }: any) {
   const [data, setData] = useState<ComplexItem | null>(null);
   const [activeTab, setActiveTab] = useState<Tab>('overview');
   const [breakdowns, setBreakdowns] = useState<ScoreBreakdown[]>([]);
+  const [scoringInfo, setScoringInfo] = useState<ScoringInfo | null>(null);
+  const [infoModalProfile, setInfoModalProfile] = useState<BP | null>(null);
 
   useEffect(() => {
     fetchComplexDetail(id).then((detail) => {
@@ -65,6 +68,7 @@ export default function ComplexDetailScreen({ route, navigation }: any) {
         calcScoreBreakdown(detail, 'flipper'),
       ]);
     });
+    fetchScoringInfo().then(setScoringInfo);
   }, [id]);
 
   if (!data) return null;
@@ -141,12 +145,13 @@ export default function ComplexDetailScreen({ route, navigation }: any) {
       {breakdowns.map((bd) => {
         const palette = getScorePalette(bd.tone);
         const barWidth = (bd.totalScore / 100) * (screenWidth - 40 - 32 - 2);
+        const apiScore = data?.scores.find((s) => s.profile === bd.profile);
 
         return (
           <View key={bd.profile} style={styles.breakdownCard}>
             {/* Header */}
             <View style={styles.breakdownHeader}>
-              <View>
+              <View style={{ flex: 1 }}>
                 <Text style={styles.breakdownProfile}>{profileMeta[bd.profile].label}</Text>
                 <Text style={styles.breakdownVerdict}>{bd.verdict}</Text>
               </View>
@@ -155,6 +160,14 @@ export default function ComplexDetailScreen({ route, navigation }: any) {
                   {bd.scoreValue.toFixed(1)}
                 </Text>
               </View>
+              {scoringInfo && (
+                <TouchableOpacity
+                  style={styles.infoBtn}
+                  onPress={() => setInfoModalProfile(bd.profile as BP)}
+                >
+                  <Info size={18} color={theme.colors.textSecondary} />
+                </TouchableOpacity>
+              )}
             </View>
 
             {/* Progress bar */}
@@ -193,6 +206,29 @@ export default function ComplexDetailScreen({ route, navigation }: any) {
                 </View>
               );
             })}
+
+            {/* v2 API: top reason + risk flag */}
+            {(apiScore?.top_reason || apiScore?.risk_flag) && (
+              <View style={styles.reasonBlock}>
+                {apiScore.top_reason && (
+                  <View style={styles.reasonRow}>
+                    <Text style={styles.reasonIcon}>✅</Text>
+                    <Text style={styles.reasonText}>{apiScore.top_reason}</Text>
+                  </View>
+                )}
+                {apiScore.risk_flag && (
+                  <View style={styles.reasonRow}>
+                    <Text style={styles.reasonIcon}>⚠️</Text>
+                    <Text style={styles.reasonText}>{apiScore.risk_flag}</Text>
+                  </View>
+                )}
+                {apiScore.confidence !== undefined && (
+                  <Text style={styles.confidenceLabel}>
+                    Достоверность: {Math.round(apiScore.confidence * 100)}%
+                  </Text>
+                )}
+              </View>
+            )}
           </View>
         );
       })}
@@ -413,6 +449,16 @@ export default function ComplexDetailScreen({ route, navigation }: any) {
         </View>
       </ScrollView>
 
+      {/* Scoring info modal */}
+      {scoringInfo && infoModalProfile && (
+        <ScoringInfoModal
+          visible={!!infoModalProfile}
+          profile={infoModalProfile}
+          scoringInfo={scoringInfo}
+          onClose={() => setInfoModalProfile(null)}
+        />
+      )}
+
       {/* Bottom bar */}
       <View style={[styles.bottomBar, { paddingBottom: Math.max(insets.bottom, 16) }]}>
         <View>
@@ -490,7 +536,13 @@ const styles = StyleSheet.create({
 
   // Scoring breakdown
   breakdownCard: { backgroundColor: theme.colors.surface, borderRadius: 24, padding: 18, marginBottom: 14, borderWidth: 1, borderColor: theme.colors.border, ...theme.shadows.card },
-  breakdownHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, marginBottom: 14 },
+  breakdownHeader: { flexDirection: 'row', alignItems: 'flex-start', gap: 10, marginBottom: 14 },
+  infoBtn: { width: 34, height: 34, borderRadius: 17, backgroundColor: theme.colors.surfaceMuted, justifyContent: 'center', alignItems: 'center' },
+  reasonBlock: { marginTop: 12, paddingTop: 12, borderTopWidth: 1, borderTopColor: theme.colors.border, gap: 6 },
+  reasonRow: { flexDirection: 'row', gap: 6, alignItems: 'flex-start' },
+  reasonIcon: { fontSize: 13, marginTop: 1 },
+  reasonText: { color: theme.colors.textSecondary, fontSize: 12, flex: 1, lineHeight: 17 },
+  confidenceLabel: { color: theme.colors.textMuted, fontSize: 11, marginTop: 4 },
   breakdownProfile: { fontSize: 18, fontWeight: '800', color: theme.colors.text },
   breakdownVerdict: { fontSize: 13, color: theme.colors.textSecondary, lineHeight: 18, marginTop: 4, maxWidth: 220 },
   breakdownScore: { minWidth: 52, height: 52, borderRadius: 26, justifyContent: 'center', alignItems: 'center' },

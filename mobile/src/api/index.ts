@@ -11,6 +11,33 @@ export interface ScoreEntry {
   score: ScoreTone;
   score_value: number;
   explanation: string;
+  confidence?: number;
+  top_reason?: string;
+  risk_flag?: string;
+  breakdown?: Record<string, number>;
+}
+
+export interface ScoringFactor {
+  key: string;
+  label: string;
+  weight: number;
+  weight_pct: string;
+  how: string;
+  good: string;
+  bad: string;
+}
+
+export interface ScoringProfile {
+  label: string;
+  description: string;
+  factors: ScoringFactor[];
+}
+
+export interface ScoringInfo {
+  version: string;
+  how_it_works: string;
+  confidence_note: string;
+  profiles: Record<BuyerProfile, ScoringProfile>;
 }
 
 export interface InfrastructureItem {
@@ -683,6 +710,23 @@ export const fetchComplexDetail = async (id: string): Promise<ComplexItem> => {
     return await res.json() as ComplexItem;
   } catch {
     return mockComplexes.find((item) => item.id === id) ?? mockComplexes[0];
+  }
+};
+
+let _scoringInfoCache: ScoringInfo | null = null;
+
+export const fetchScoringInfo = async (): Promise<ScoringInfo | null> => {
+  if (_scoringInfoCache) return _scoringInfoCache;
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 4000);
+    const res = await fetch(`${API_BASE}/api/v1/scoring-info`, { signal: ctrl.signal });
+    clearTimeout(t);
+    if (!res.ok) return null;
+    _scoringInfoCache = await res.json() as ScoringInfo;
+    return _scoringInfoCache;
+  } catch {
+    return null;
   }
 };
 
